@@ -1,4 +1,4 @@
 # Documentations
 
 ## Introduction
-[intro_docs](0x00-lntroduction tasks/ProjectDoc.pdf)
+[intro_docs](0x00-Introduction_tasks/ProjectDoc.pdf)
