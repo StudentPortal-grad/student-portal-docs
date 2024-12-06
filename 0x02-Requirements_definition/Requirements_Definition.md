@@ -68,3 +68,31 @@
 ---
 
 ## 3. Non-Functional Requirements
+
+### Performance
+- Ensure fast response times for API requests and minimize latency.
+- Provide real-time notifications and sync event data with user calendars efficiently.
+
+### Scalability
+- Support horizontal scaling to handle growth in user base and data volume without compromising performance.
+- Optimize database and backend infrastructure for handling large numbers of concurrent users and data queries.
+
+### Security
+- Encrypt sensitive user data both in transit and at rest using industry-standard protocols.
+- Use JWT (JSON Web Tokens) for secure token-based authentication in all user sessions.
+- Regularly conduct security audits to ensure the platform is protected against vulnerabilities.
+
+### Reliability
+- Ensure fast recovery from system failures with backup and failover mechanisms.
+
+### Availability
+- Ensure platform availability 24/7, with minimal downtime during maintenance or system updates.
+- Provide a transparent downtime notification system for users to be informed of any service interruptions.
+
+### Usability
+- Offer a user-friendly interface with intuitive navigation and responsive design across devices.
+- Provide customization options for user dashboards and themes.
+
+### Maintainability
+- Write modular, clean, and well-documented code to facilitate long-term maintenance and scalability.
+- Implement automated error monitoring and reporting systems to quickly address issues.
