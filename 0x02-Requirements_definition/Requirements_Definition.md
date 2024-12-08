@@ -44,7 +44,8 @@
 
 ### Mentorship Tools
 - Match students with mentors using an AI algorithm:
-  - Mentors assist two junior students (mentees) in their academic and career paths.
+  - Mentors can include faculty members, peers, or other college associates who demonstrate expertise and willingness to help.
+  - Mentors assist three junior students (mentees) in their academic and career paths.
   - Provide guidance through:
     - Direct messaging.
     - Scheduled group sessions.
@@ -96,3 +97,4 @@
 ### Maintainability
 - Write modular, clean, and well-documented code to facilitate long-term maintenance and scalability.
 - Implement automated error monitoring and reporting systems to quickly address issues.
+
