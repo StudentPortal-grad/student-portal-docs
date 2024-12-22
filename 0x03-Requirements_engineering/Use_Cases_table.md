@@ -1,145 +1,244 @@
-# Student Portal Use Cases
+# Student Portal Use Cases Documentation
 
-## User Management Use Cases
+## Table of Contents
+1. [User Management](#1-user-management)
+2. [Communication](#2-communication)
+3. [Resource Management](#3-resource-management)
+4. [Event Management](#4-event-management)
 
-### UC-UM001: User Registration
+## 1. User Management
 
-| Attribute | Details |
-|-----------|---------|
-| Actor | Student/Faculty/Admin |
-| Trigger | User initiates registration |
-| Preconditions | User is not registered |
-| Input | - Personal details (name, email)<br>- Chosen role<br>- Password<br>- Verification information |
-| Validation Steps | 1. Validate email format<br>2. Check email uniqueness<br>3. Password strength validation<br>4. Verify role selection<br>5. Validate personal information completeness |
-| Error Handling | - Invalid email format: Display specific error message<br>- Email already exists: Prompt to login or use different email<br>- Weak password: Show password strength requirements<br>- Incomplete information: Highlight missing fields<br>- System registration failure: Log error, provide retry option |
-| Output | - User account creation confirmation<br>- Verification email<br>- User profile |
-| Priority | High |
-| Description | Create a new user account |
-| Main Flow | 1. User enters registration details<br>2. System validates information<br>3. Create user profile<br>4. Send verification email |
-| Alternative Flow | If validation fails, show error messages |
-| Post Conditions | User account created with appropriate role access |
+### 1.1 Authentication
 
-### UC-UM002: Multi-Factor Authentication
+#### UC-101: Sign Up
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | New User                                                                                      |
+| **Trigger**             | User clicks on the "Sign Up" button                                                          |
+| **Input**               | Institutional email, password, optional profile details (e.g., name, profile picture)        |
+| **Validation Steps**    | 1. Verify email domain matches institutional pattern <br> 2. Ensure password meets security criteria (e.g., minimum length, special characters) |
+| **Error Handling**      | 1. Display error if email is invalid or not institutional <br> 2. Show password validation errors in real-time <br> 3. Alert if email is already registered |
+| **Output**              | User receives a confirmation email. After verifying, they can log in                        |
+| **Post-condition**      | Account is created and active                                                               |
+| **Priority**            | High                                                                                         |
 
-| Attribute | Details |
-|-----------|---------|
-| Actor | Student/Faculty/Admin |
-| Trigger | User attempts login |
-| Preconditions | User has valid credentials |
-| Input | - Username<br>- Password<br>- Second factor (SMS code/authenticator app) |
-| Validation Steps | 1. Check username existence<br>2. Validate password against stored hash<br>3. Verify second factor authentication<br>4. Check account status (active/locked)<br>5. Validate authentication attempt frequency |
-| Error Handling | - Invalid username: Suggest username recovery<br>- Incorrect password: Limit login attempts<br>- Failed second factor: Provide alternative verification method<br>- Account locked: Implement account recovery process<br>- Suspicious login attempt: Trigger additional security checks<br>- Multiple failed attempts: Temporary account lockout |
-| Output | - Successful login token<br>- Access to user dashboard<br>- Error messages if authentication fails |
-| Priority | Critical |
-| Description | Secure login process |
-| Main Flow | 1. User enters username/password<br>2. System prompts for second authentication factor<br>3. Verify additional authentication method |
-| Alternative Flow | If authentication fails, deny access |
-| Post Conditions | Secure user login with multi-factor protection |
+#### UC-102: Log In
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | Registered User                                                                               |
+| **Trigger**             | User clicks "Log In" and enters credentials                                                  |
+| **Input**               | Email, password, or single sign-on (SSO) token                                               |
+| **Validation Steps**    | 1. Match email and password to stored credentials <br> 2. Validate SSO token if used        |
+| **Error Handling**      | 1. Show "Invalid credentials" for incorrect input <br> 2. Account lock after multiple failed attempts |
+| **Output**              | User gains access to the dashboard or main portal                                            |
+| **Post-condition**      | User is logged into their profile                                                           |
+| **Priority**            | High                                                                                         |
 
-## Event Management Use Cases
+#### UC-103: Password Recovery
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | User who forgot their password                                                                |
+| **Trigger**             | User clicks "Forgot Password" link                                                           |
+| **Input**               | Registered email address                                                                     |
+| **Validation Steps**    | 1. Verify email exists in the database <br> 2. Ensure reset link is unique and time-limited  |
+| **Error Handling**      | 1. Display "Email not found" for unregistered addresses <br> 2. Expire old reset links      |
+| **Output**              | User receives an email with a reset link, sets a new password, and logs in                   |
+| **Post-condition**      | Password is updated successfully                                                            |
+| **Priority**            | Medium                                                                                       |
 
-### UC-EM001: Create Event
+### 1.2 Profile Management
 
-| Attribute | Details |
-|-----------|---------|
-| Actor | Faculty/Admin |
-| Trigger | User initiates event creation |
-| Preconditions | User has event creation privileges |
-| Input | - Event title<br>- Description<br>- Date and time<br>- Location<br>- Target audience |
-| Validation Steps | 1. Verify user's event creation permissions<br>2. Check event title length and content<br>3. Validate date and time format<br>4. Ensure location information is complete<br>5. Validate target audience specification |
-| Error Handling | - Insufficient permissions: Block event creation<br>- Invalid event title: Prompt for correction<br>- Incorrect date/time format: Provide clear formatting guidelines<br>- Missing location details: Require complete information<br>- Undefined target audience: Request clarification |
-| Output | - Event created in system<br>- Event listing<br>- Notification to potential participants |
-| Priority | High |
-| Description | Create a new academic event |
-| Main Flow | 1. Select 'Create Event'<br>2. Enter event details<br>3. Set event parameters<br>4. Save and publish event |
-| Alternative Flow | Can save as draft |
-| Post Conditions | Event is added to platform's event list |
+#### UC-111: Create Profile
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | New User                                                                                      |
+| **Trigger**             | User logs in for the first time and navigates to the "Profile" section                        |
+| **Input**               | Profile picture, bio, academic interests, optional details like name and contact information  |
+| **Validation Steps**    | 1. Ensure required fields (e.g., bio, academic interests) are filled <br> 2. Validate file type for profile picture upload |
+| **Error Handling**      | 1. Display error messages for invalid file types or empty required fields <br> 2. Allow user to retry with correct inputs |
+| **Output**              | Profile is saved and viewable by others                                                       |
+| **Post-condition**      | Profile setup is complete                                                                    |
+| **Priority**            | Medium                                                                                       |
 
-### UC-EM002: Event RSVP
+#### UC-112: Update Profile
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | Registered User                                                                               |
+| **Trigger**             | User navigates to the "Profile" section and clicks "Edit Profile"                             |
+| **Input**               | Updated profile picture, bio, academic interests, or other optional details                   |
+| **Validation Steps**    | 1. Ensure uploaded files (if any) meet size and format criteria <br> 2. Validate changes to mandatory fields |
+| **Error Handling**      | 1. Show real-time validation errors for invalid inputs <br> 2. Allow user to cancel or retry updates |
+| **Output**              | Profile updates are saved and reflected on the user's profile page                            |
+| **Post-condition**      | Profile reflects the latest changes                                                          |
+| **Priority**            | Medium                                                                                       |
 
-| Attribute | Details |
-|-----------|---------|
-| Actor | Student/Faculty |
-| Trigger | User selects event |
-| Preconditions | User is logged in |
-| Input | - Event ID<br>- Attendee details<br>- Additional requirements |
-| Validation Steps | 1. Verify event availability<br>2. Check user eligibility to attend<br>3. Validate attendee information<br>4. Verify event capacity<br>5. Check for any event-specific requirements |
-| Error Handling | - Event already full: Waitlist option<br>- User not eligible: Explain restrictions<br>- Incomplete attendee details: Prompt for missing information<br>- Event registration closed: Provide clear reason<br>- Conflicting event registrations: Show potential conflicts |
-| Output | - RSVP confirmation<br>- Updated event attendee list<br>- Calendar sync notification |
-| Priority | Medium |
-| Description | Register for an academic event |
-| Main Flow | 1. Browse available events<br>2. Select desired event<br>3. Click RSVP<br>4. Confirm attendance |
-| Alternative Flow | Can withdraw RSVP |
-| Post Conditions | User's attendance is tracked and confirmed |
+## 2. Communication
 
-## Community Platform Use Cases
+### 2.1 Messaging
 
-### UC-CP001: Create Community
+#### UC-201: Direct Messaging
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | User                                                                                          |
+| **Trigger**             | User searches for a peer or faculty member and opens a chat window                            |
+| **Input**               | Text message or attachment (optional)                                                        |
+| **Validation Steps**    | 1. Ensure recipient exists in the system <br> 2. Validate message length and attachment size |
+| **Error Handling**      | 1. Show error if the recipient is not found <br> 2. Notify if attachment size exceeds limits |
+| **Output**              | Message is sent and visible to the recipient                                                 |
+| **Post-condition**      | Communication thread is updated for both sender and recipient                                |
+| **Priority**            | High                                                                                         |
 
-| Attribute | Details |
-|-----------|---------|
-| Actor | Student/Faculty |
-| Trigger | User initiates community creation |
-| Preconditions | User is logged in |
-| Input | - Community name<br>- Description<br>- Category<br>- Access rules<br>- Initial members |
-| Validation Steps | 1. Check community name uniqueness<br>2. Validate description length<br>3. Verify category selection<br>4. Check initial member invitations<br>5. Validate access rule configuration |
-| Error Handling | - Duplicate community name: Suggest alternative names<br>- Insufficient description: Prompt for more details<br>- Invalid category: Provide category selection guidance<br>- Invalid member invitations: Highlight invitation errors<br>- Inappropriate access rules: Provide configuration recommendations |
-| Output | - New community created<br>- Community invitation notifications<br>- Community dashboard |
-| Priority | Medium |
-| Description | Establish a new interest-based community |
-| Main Flow | 1. Select 'Create Community'<br>2. Define community parameters<br>3. Set access rules<br>4. Invite members |
-| Alternative Flow | Can set community as public/private |
-| Post Conditions | New community added to platform |
+#### UC-202: Group Chats
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | User                                                                                          |
+| **Trigger**             | User selects or creates a group chat                                                         |
+| **Input**               | Group name, description (for new group), and messages from members                           |
+| **Validation Steps**    | 1. Validate uniqueness of group name <br> 2. Ensure members exist in the system             |
+| **Error Handling**      | 1. Notify if group creation fails due to name conflict <br> 2. Alert if a message delivery fails |
+| **Output**              | Messages are exchanged and visible to group members                                          |
+| **Post-condition**      | Group chat is active and accessible to members                                               |
+| **Priority**            | Medium                                                                                       |
 
-### UC-CP002: Peer Assistance
+### 2.2 Groups and Communities
 
-| Attribute | Details |
-|-----------|---------|
-| Actor | Student |
-| Trigger | User posts help request |
-| Preconditions | User is part of a community |
-| Input | - Problem description<br>- Relevant course/subject<br>- Attachment (optional) |
-| Validation Steps | 1. Verify community membership<br>2. Check problem description completeness<br>3. Validate attachment file type and size<br>4. Ensure appropriate content guidelines<br>5. Check user's assistance request history |
-| Error Handling | - Not a community member: Prompt to join community<br>- Insufficient problem description: Request more details<br>- Invalid attachment: Provide file type and size guidelines<br>- Inappropriate content: Block submission, provide guidelines<br>- Excessive help requests: Implement request limitation |
-| Output | - Community responses<br>- Solution thread<br>- Potential mentor notification |
-| Priority | High |
-| Description | Request help on academic tasks |
-| Main Flow | 1. Post help request<br>2. Community members respond<br>3. Collaborate on solution |
-| Alternative Flow | Can escalate to mentor if needed |
-| Post Conditions | Academic challenge addressed through peer support |
+#### UC-211: Create Groups
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | User, Faculty, or Admin                                                                       |
+| **Trigger**             | Actor clicks on "Create Group"                                                               |
+| **Input**               | - Group name <br> - Description <br> - Group type (Official/Community) <br> - Optional group image |
+| **Validation Steps**    | 1. Ensure group name is unique <br> 2. Validate description length and file type for images <br> 3. **For Official Groups:** <br> - Verify creator has Admin/Faculty permissions <br> - Validate academic purpose <br> **For Community Groups:** <br> - Standard validation only |
+| **Error Handling**      | 1. Show error if group name already exists <br> 2. Notify if file upload fails <br> 3. Display permission error for unauthorized official group creation |
+| **Output**              | Group is created and added to appropriate directory: <br> - Official Groups directory for faculty/admin created groups <br> - Community Groups directory for user-created groups |
+| **Post-condition**      | - Official groups: Only modifiable by faculty/admin <br> - Community groups: Modifiable by creator |
+| **Priority**            | High                                                                                         |
 
-## Dashboard Use Cases
+#### UC-212: Join Groups
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | User                                                                                          |
+| **Trigger**             | User browses group directories (Official or Community) and clicks "Join"                    |
+| **Input**               | Selected group                                                                               |
+| **Validation Steps**    | 1. Verify group access settings: <br> - Official Groups: Open or Invite-only <br> - Community Groups: Public or private |
+| **Error Handling**      | 1. Display "Access Denied" for invite-only/private groups <br> 2. Notify if the group is at member capacity |
+| **Output**              | User is added as a member of the group                                                       |
+| **Post-condition**      | User receives updates and access to group discussions                                        |
+| **Priority**            | Medium                                                                                       |
 
-### UC-DB001: Personalized Dashboard
+#### UC-213: Manage Groups
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | Group Owner (Faculty/Admin for Official Groups, Creator for Community Groups)                  |
+| **Trigger**             | Actor navigates to group and selects "Manage Group"                                           |
+| **Input**               | - Updated group details (name, description, image) <br> - Member management actions (add/remove) <br> - Group settings changes (privacy, permissions) |
+| **Validation Steps**    | 1. Validate actor's permissions: <br> - For Official Groups: Must be Faculty/Admin <br> - For Community Groups: Must be group creator <br> 2. Verify member operations are valid <br> 3. Ensure updates meet platform guidelines |
+| **Error Handling**      | 1. Show error if actor lacks required permissions <br> 2. Display error for invalid member operations <br> 3. Notify if updates fail to save <br> 4. Alert if settings changes violate platform rules |
+| **Output**              | Group settings, membership, and details are updated according to actor's permissions           |
+| **Post-condition**      | - Official Groups: Changes reflected with institutional guidelines maintained <br> - Community Groups: Changes reflected within platform guidelines |
+| **Priority**            | High                                                                                          |                                         |
 
-| Attribute | Details |
-|-----------|---------|
-| Actor | Student |
-| Trigger | User logs in or refreshes dashboard |
-| Preconditions | User is logged in |
-| Input | - User authentication<br>- Current academic data<br>- Recent activities |
-| Validation Steps | 1. Verify user authentication token<br>2. Check data retrieval permissions<br>3. Validate academic data completeness<br>4. Verify activity log accuracy<br>5. Ensure data privacy compliance |
-| Error Handling | - Invalid authentication: Require re-login<br>- Insufficient data retrieval permissions: Limit dashboard view<br>- Incomplete academic data: Prompt for updates<br>- Inconsistent activity log: Flag for review<br>- Privacy rule violations: Redact sensitive information |
-| Output | - Comprehensive dashboard view<br>- Progress metrics<br>- Recent notifications<br>- Recommended actions |
-| Priority | Critical |
-| Description | View academic progress |
-| Main Flow | 1. Load user-specific dashboard<br>2. Display progress metrics<br>3. Show recent notifications |
-| Alternative Flow | Can customize dashboard view |
-| Post Conditions | User sees comprehensive academic overview |
+#### UC-214: Start a Discussion in a Group
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | Group Member                                                                                 |
+| **Trigger**             | User clicks "Start a Discussion" within a group                                              |
+| **Input**               | Title, body content, optional attachments or media                                           |
+| **Validation Steps**    | 1. Ensure title is not empty <br> 2. Validate content length <br> 3. Check file type and size of attachments |
+| **Error Handling**      | 1. Show error if title or content is invalid <br> 2. Notify if attachment upload fails       |
+| **Output**              | Discussion is created and visible to all group members                                       |
+| **Post-condition**      | Other group members can view, reply to, or interact with the discussion                      |
+| **Priority**            | High                                                                                         |
 
-### UC-DB002: Notification Management
+#### UC-215: Reply to a Discussion
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | Group Member                                                                                 |
+| **Trigger**             | User clicks "Reply" on an existing discussion                                                |
+| **Input**               | Reply content, optional attachments                                                          |
+| **Validation Steps**    | 1. Ensure reply is not empty <br> 2. Validate file types and sizes for attachments           |
+| **Error Handling**      | 1. Show error for invalid inputs <br> 2. Notify if attachment upload fails                   |
+| **Output**              | Reply is added to the discussion thread                                                      |
+| **Post-condition**      | Other members see the reply in real-time or when they refresh                                |
+| **Priority**            | Medium                                                                                       |
 
-| Attribute | Details |
-|-----------|---------|
-| Actor | Student/Faculty/Admin |
-| Trigger | User modifies notification preferences |
-| Preconditions | User account exists |
-| Input | - Communication channels<br>- Notification types<br>- Frequency settings |
-| Validation Steps | 1. Verify communication channel availability<br>2. Check notification type compatibility<br>3. Validate frequency settings<br>4. Ensure user consent for notifications<br>5. Verify notification delivery mechanisms |
-| Error Handling | - Unsupported communication channel: Provide alternative options<br>- Invalid notification types: Offer selection guidance<br>- Inappropriate frequency settings: Suggest optimal configurations<br>- Lack of user consent: Explain notification policy<br>- Delivery mechanism failures: Implement backup notification methods |
-| Output | - Updated notification profile<br>- Confirmation of changes<br>- Test notification |
-| Priority | Medium |
-| Description | Manage platform notifications |
-| Main Flow | 1. Configure notification preferences<br>2. Select communication channels<br>3. Set notification types |
-| Alternative Flow | Can mute specific notification types |
-| Post Conditions | Personalized notification settings applied |
+#### UC-216: Pin/Highlight a Discussion
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | Admin, Faculty, or Group Moderator                                                            |
+| **Trigger**             | Moderator selects "Pin" or "Highlight" on a discussion                                       |
+| **Input**               | Selected discussion                                                                          |
+| **Validation Steps**    | 1. Ensure the actor has appropriate permissions                                              |
+| **Error Handling**      | Display error if permissions are invalid                                                     |
+| **Output**              | Discussion is marked as pinned or highlighted, appearing at the top of the discussion list   |
+| **Post-condition**      | Group members easily find the pinned/highlighted discussion                                  |
+| **Priority**            | Medium                                                                                       |
+
+## 3. Resource Management
+
+### 3.1 Academic Resources
+
+#### UC-301: Upload Academic Materials
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | User                                                                                          |
+| **Trigger**             | User clicks "Upload Resource"                                                                |
+| **Input**               | File (e.g., PDF, DOCX), title, description, and tags                                         |
+| **Validation Steps**    | 1. Check file type and size <br> 2. Ensure title and description are not empty              |
+| **Error Handling**      | 1. Show error for unsupported file types or size limit exceeded <br> 2. Notify if upload fails |
+| **Output**              | Resource is uploaded and visible in the shared resources directory                           |
+| **Post-condition**      | Other users can view, download, or interact with the resource                                |
+| **Priority**            | High                                                                                         |
+
+#### UC-302: Interact with Resources
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | User                                                                                          |
+| **Trigger**             | User selects a resource to comment on, rate, or download                                     |
+| **Input**               | Comment, rating (stars), or download action                                                  |
+| **Validation Steps**    | 1. Validate rating scale (e.g., 1-5 stars) <br> 2. Ensure comments are not empty             |
+| **Error Handling**      | Notify if the interaction fails to save                                                      |
+| **Output**              | Interaction (comment or rating) is recorded and visible to others                            |
+| **Post-condition**      | Resource interaction enhances engagement and feedback                                        |
+| **Priority**            | Medium                                                                                       |
+
+## 4. Event Management
+
+### 4.1 Event Operations
+
+#### UC-401: Create Events
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | Faculty, Admin                                                                                 |
+| **Trigger**             | Faculty/Admin clicks "Create Event"                                                          |
+| **Input**               | Event name, date, time, location, description, and optional image                            |
+| **Validation Steps**    | 1. Check date and time validity (e.g., no past dates) <br> 2. Ensure required fields are filled |
+| **Error Handling**      | 1. Show error if date or time is invalid <br> 2. Notify if image upload fails                |
+| **Output**              | Event is created and visible in the event directory                                          |
+| **Post-condition**      | Users can view and RSVP to the event                                                         |
+| **Priority**            | High                                                                                         |
+
+#### UC-402: RSVP to Events
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | User                                                                                          |
+| **Trigger**             | User clicks "RSVP" on an event                                                               |
+| **Input**               | Event selection                                                                              |
+| **Validation Steps**    | Ensure event is not full (if capacity is set)                                                |
+| **Error Handling**      | Notify if RSVP fails or if event is full                                                     |
+| **Output**              | User's RSVP is recorded and confirmed                                                       |
+| **Post-condition**      | User receives event updates and reminders (if applicable)                                    |
+| **Priority**            | Medium                                                                                       |
+
+#### UC-403: Sync Events to Calendar
+| **Field**               | **Details**                                                                                     |
+|-------------------------|------------------------------------------------------------------------------------------------|
+| **Actor**               | User                                                                                          |
+| **Trigger**             | User clicks "Sync to Calendar" for an event                                                  |
+| **Input**               | Calendar application integration (Google Calendar, Outlook, etc.)                           |
+| **Validation Steps**    | Ensure user grants necessary permissions for calendar sync                                   |
+| **Error Handling**      | Notify if sync fails due to connectivity or permission issues                                |
+| **Output**              | Event is added to the user's calendar                                                        |
+| **Post-condition**      | User sees the event in their personal calendar                                               |
+| **Priority**            | Low                                                                                          |
+
