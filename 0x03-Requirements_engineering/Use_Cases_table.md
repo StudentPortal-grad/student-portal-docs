@@ -27,8 +27,8 @@
 |-------------------------|------------------------------------------------------------------------------------------------|
 | **Actor**               | Registered User                                                                               |
 | **Trigger**             | User clicks "Log In" and enters credentials                                                  |
-| **Input**               | Email, password, or single sign-on (SSO) token                                               |
-| **Validation Steps**    | 1. Match email and password to stored credentials <br> 2. Validate SSO token if used        |
+| **Input**               | Email, password                                               |
+| **Validation Steps**    | 1. Match email and password to stored credentials       |
 | **Error Handling**      | 1. Show "Invalid credentials" for incorrect input <br> 2. Account lock after multiple failed attempts |
 | **Output**              | User gains access to the dashboard or main portal                                            |
 | **Post-condition**      | User is logged into their profile                                                           |
