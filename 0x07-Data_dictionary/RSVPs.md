@@ -1,0 +1,12 @@
+### Data Dictionary for `RSVPs` Table
+
+| **Data Element Name** | **Data Type** | **Description**                                              | **Length/Size** | **Constraints/Rules**                                                    | **Default Value**  | **Source** | **Relationships**         | **Permissions/Access**   | **Examples** |
+|------------------------|--------------|--------------------------------------------------------------|-----------------|--------------------------------------------------------------------------|--------------------|------------|--------------------------|--------------------------|--------------|
+| `id`                   | `ObjectId`   | Unique identifier for the RSVP entry (primary key).         | 24 bytes        | Primary key, unique                                                     | Auto-generated     | System     | -                        | Read/Write (Admin)      | `656a3f1e8bfa9c001f3b2d6c` |
+| `eventId`              | `ObjectId`   | ID of the event being RSVP'd to.                            | 24 bytes        | Foreign key, required                                                   | None              | System | References `events.id`   | Read/Write (Admin, User)| `656a3f1e8bfa9c001f3b2d6d` |
+| `userId`               | `ObjectId`   | ID of the user who RSVP'd.                                  | 24 bytes        | Foreign key, required                                                   | None              | System | References `users.id`    | Read/Write (Admin, User)| `656a3f1e8bfa9c001f3b2d6e` |
+| `status`               | `String`     | RSVP status of the user for the event.                      | 15 characters   | Enum(`attending`, `not_attending`, `interested`), Required              | `interested`       | User Input | -                        | Read/Write (Admin, User)| `"attending"` |
+| `createdAt`            | `DateTime`   | Timestamp of RSVP creation.                                 | 8 bytes         | Auto-generated                                                          | Current Timestamp  | System     | -                        | Read (Admin, User)      | `2025-01-20T12:00:00Z` |
+| `updatedAt`            | `DateTime`   | Timestamp of last RSVP update.                             | 8 bytes         | Auto-updated                                                            | Current Timestamp  | System     | -                        | Read (Admin, User)      | `2025-01-22T14:00:00Z` |
+
+
