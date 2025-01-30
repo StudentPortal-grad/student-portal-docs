@@ -1,4 +1,4 @@
-## Data Dictionary: Events Table
+### Data Dictionary: Events Table
 
 | Data Element Name  | Data Type   | Description | Length/Size | Constraints/Rules | Default Value | Source | Relationships | Permissions/Access | Examples |
 |--------------------|------------|-------------|-------------|------------------|---------------|--------|--------------|------------------|----------|
