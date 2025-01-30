@@ -1,0 +1,17 @@
+# Data Dictionary for `conversations` Table
+
+## Fields
+
+| **Data Element Name** | **Data Type**  | **Description**                                      | **Length/Size** | **Constraints/Rules**            | **Default Value** | **Source**  | **Relationships**                        | **Permissions/Access** | **Examples** |
+|----------------------|---------------|-----------------------------------------------------|---------------|--------------------------------|-----------------|------------|--------------------------------|--------------------|------------|
+| `id`                | `ObjectId`     | Unique identifier for the conversation (primary key). | 24 bytes      | Primary key, unique, auto-generated | Auto-generated  | System     | Referenced in `messages` table          | Read (Participants), Write (System) | `"507f1f77bcf86cd799439100"` |
+| `type`              | `String`       | Type of conversation (`DM` for direct message, `GroupDM` for group chat). | 10 chars      | Enum values: `DM`, `GroupDM`   | Required        | User input  | -                                    | Read (Participants), Write (System) | `"DM"` |
+| `participants`      | `Array<ObjectId>` | List of user IDs involved in the conversation.       | Variable      | References `users.id`, at least 2 for `GroupDM` | Required        | User input  | References `users.id`                  | Read (Participants), Write (System) | `["507f1f77bcf86cd799439101", "507f1f77bcf86cd799439102"]` |
+| `name`             | `String`       | Name of the group conversation (only for `GroupDM`). | 255 chars     | Optional (only for `GroupDM`) | `null`          | User input  | -                                    | Read (Participants), Write (Creator) | `"Project Team Chat"` |
+| `createdBy`         | `ObjectId`     | User ID of the conversation creator.                | 24 bytes      | Must exist in `users.id`      | Required        | User input  | References `users.id`                  | Read (Participants), Write (System) | `"507f1f77bcf86cd799439103"` |
+| `messages`          | `Array<ObjectId>` | List of message IDs in the conversation, newest first. | Variable      | References `messages.id`      | `[]`            | System      | References `messages.id`                | Read (Participants), Write (System) | `["609f1f77bcf86cd799439200", "609f1f77bcf86cd799439201"]` |
+| `inviteLink`        | `String`       | Optional invite link for `GroupDM` conversations.   | 500 chars     | Optional                      | `null`          | System      | -                                    | Read (Participants), Write (Creator) | `"https://chatapp.com/invite/abc123"` |
+| `status`           | `String`       | Status of the conversation (`active`, `archived`).  | 10 chars      | Enum values only              | `active`        | System      | -                                    | Read (Participants), Write (System) | `"archived"` |
+| `createdAt`         | `DateTime`     | Timestamp when the conversation was created.        | 8 bytes       | Auto-generated                | Current timestamp | System | -                                    | Read (Participants) | `"2024-01-10T08:45:00Z"` |
+| `updatedAt`         | `DateTime`     | Timestamp when the conversation was last updated.   | 8 bytes       | Auto-updated                  | Current timestamp | System | -                                    | Read (Participants) | `"2024-01-12T12:30:00Z"` |
+
