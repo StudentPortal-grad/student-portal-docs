@@ -17,6 +17,10 @@ The **Student Portal** is an integrated academic platform designed to enhance st
 
 🎥 **[View the Project Presentation](https://studentportal-grad.github.io/student-portal-docs/presentation.html)**
 
+## Interface Designs
+- **[Student Portal Application](https://studentportal-grad.github.io/student-portal-docs/0x10-Design/app_interface.html)** - A detailed view of the app's user interface, designed to provide a streamlined and intuitive student experience.
+- **[Student Portal Dashboard](https://studentportal-grad.github.io/student-portal-docs/0x10-Design/website_interface.html)** - A visual representation of the admin dashboard interface, where administrators can control and manage all system functions.
+
 ## Table of Contents
 - [Project Introduction](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x00-Project_Introduction) - Overview and motivation behind the project.
 - [Requirement Gathering](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x01-Requirement_gathering) - Research findings, surveys, and analysis.
