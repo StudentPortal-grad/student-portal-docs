@@ -26,14 +26,9 @@ The **Student Portal** is an integrated academic platform designed to enhance st
 - [Requirement Gathering](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x01-Requirement_gathering) - Research findings, surveys, and analysis.
 - [Requirements Definition](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x02-Requirements_definition) - Functional and non-functional project requirements.
 - [Use Case Development](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x03-Use_Case_Development) - Use case diagrams and system workflows.
-- [Database Design](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x04-Database_Design) - Schema definitions, data models, and ER diagrams.
-- [System DFD](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x05-System_DFD) - Data flow diagrams explaining system processes.
-- [UML Class Diagrams](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x06-Class_diagram) - UML models illustrating system structure.
 - [Data Dictionary](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x07-Data_dictionary) - Detailed entity and data structure documentation.
-- [Algorithm Design](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x08-Algorithm_Design) - Algorithms and pseudo-code implementations.
 - [Sequence Diagrams](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x09-Sequence_Diagrams) - Visual representations of system processes and user interactions.
 - [Project Initial Plan](https://github.com/StudentPortal-grad/student-portal-docs/blob/main/Initial_Plan.pdf) - Early-stage planning document.
-- [System Architecture](https://github.com/StudentPortal-grad/student-portal-docs/blob/main/System_Architecture.pdf) - Blueprint of system components and interactions.
 - [Project Tools & Techniques](https://github.com/StudentPortal-grad/student-portal-docs/blob/main/Project_Tools_Technologies.pdf) - Technologies and Tools used.
 
 ## Contributors
@@ -54,3 +49,5 @@ We are actively looking for **mentors, industry experts, and potential investors
 
 📧 **Contact Email:** studentportal.team@gmail.com <br>
 **GitHub Orgnization:** [Student Portal](https://github.com/StudentPortal-grad/)
+
+---
