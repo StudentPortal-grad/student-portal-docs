@@ -26,6 +26,7 @@ The **Student Portal** is an integrated academic platform designed to enhance st
 - [Requirement Gathering](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x01-Requirement_gathering) - Research findings, surveys, and analysis.
 - [Requirements Definition](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x02-Requirements_definition) - Functional and non-functional project requirements.
 - [Use Case Development](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x03-Use_Case_Development) - Use case diagrams and system workflows.
+- [System DFD](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x05-System_DFD) - Data flow diagrams explaining system processes.
 - [Data Dictionary](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x07-Data_dictionary) - Detailed entity and data structure documentation.
 - [Sequence Diagrams](https://github.com/StudentPortal-grad/student-portal-docs/tree/main/0x09-Sequence_Diagrams) - Visual representations of system processes and user interactions.
 - [Project Initial Plan](https://github.com/StudentPortal-grad/student-portal-docs/blob/main/Initial_Plan.pdf) - Early-stage planning document.
@@ -49,5 +50,3 @@ We are actively looking for **mentors, industry experts, and potential investors
 
 📧 **Contact Email:** studentportal.team@gmail.com <br>
 **GitHub Orgnization:** [Student Portal](https://github.com/StudentPortal-grad/)
-
----
