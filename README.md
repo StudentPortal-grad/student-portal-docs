@@ -1,8 +1,11 @@
 # Student Portal - Project Documentation
 
+> **Note:**  
+> This is an **early version** of the project documentation. It will be subject to significant changes and revisions as the project progresses through the upcoming sprints. Some sections may change as new features are added, and additional details are clarified.
+
 ## Table of Contents
 1. [Overview](#overview)
-2. [Key Features](#key-features)
+2. [Features](#features)
 3. [Technologies Used](#technologies-used)
 4. [System Processes](#system-processes)
    - [Start a Discussion Process](#start-a-discussion-process)
@@ -13,6 +16,8 @@
 7. [Contributors](#contributors)
 8. [Call for Mentorship & Investment](#call-for-mentorship--investment)
 
+---
+
 ## Overview
 The **Student Portal** is an integrated academic platform designed to enhance student engagement, collaboration, and resource accessibility. Our goal is to provide a seamless digital environment where students can:
 - Discover **mentorship opportunities**
@@ -20,6 +25,8 @@ The **Student Portal** is an integrated academic platform designed to enhance st
 - Organize and participate in **events and workshops**
 - Receive **real-time university updates and notifications**
 - Foster **collaborative learning** through discussions and shared knowledge
+
+---
 
 ## Features
 - **AI-Powered Chatbot** - Provides instant responses to student queries regarding university rules, events, and administrative guidance.
@@ -30,6 +37,8 @@ The **Student Portal** is an integrated academic platform designed to enhance st
 
 **[View the Project Presentation](https://studentportal-grad.github.io/student-portal-docs/presentation.html)**
 
+---
+
 ## Technologies Used
 - **Backend:** Node.js with Express.js
 - **Database:** Mongoose (MongoDB ORM)
@@ -39,7 +48,7 @@ The **Student Portal** is an integrated academic platform designed to enhance st
 - **File Storage:** Local storage for storing files temporarily, with future plans to transition to cloud-based storage before deployment.
 - **Artificial Intelligence:** Integration with an AI-powered chatbot using Natural Language Processing (NLP) models
 - **Recommendation System:** Core recommendation engine for personalized user experiences
-
+---
 ## **System Processes**  
 
 This section outlines key system workflows through **sequence diagrams**, illustrating user, system, and external component interactions. These processes are crucial for the platform's **core functionality**, ensuring seamless **authentication**, **communication**, and **user engagement**.
@@ -133,6 +142,8 @@ sequenceDiagram
 - **[Student Portal Application](https://studentportal-grad.github.io/student-portal-docs/0x10-Design/app_interface.html)** - A detailed view of the app's user interface, designed to provide a streamlined and intuitive student experience.
 - **[Student Portal Dashboard](https://studentportal-grad.github.io/student-portal-docs/0x10-Design/website_interface.html)** - A visual representation of the admin dashboard interface, where administrators can control and manage all system functions.
 
+---
+
 ## Project Repository Structure
 
 | **Document** | **Description** |
@@ -147,6 +158,7 @@ sequenceDiagram
 | [Project Initial Plan](https://github.com/StudentPortal-grad/student-portal-docs/blob/main/Initial_Plan.pdf) | Outlines the preliminary timeline, milestones, and key deliverables in the early stages of the project. |
 | [Project Tools & Techniques](https://github.com/StudentPortal-grad/student-portal-docs/blob/main/Project_Tools_Technologies.pdf) | Lists the programming languages, frameworks, databases, and methodologies used in the project, along with their roles. |
 
+---
 
 ## Contributors
 ### **Supervisors:**
@@ -160,6 +172,8 @@ sequenceDiagram
 - **Security Specialist:** Ziad Ahmed
 - **AI Specialist:** Youssef Abdelmaksod
 - **UI/UX Designer:** Noor Allam, Abdullah Mohammed
+
+---
 
 ## Call for Mentorship & Investment
 We are actively looking for **mentors, industry experts, and potential investors** from leading tech companies to guide and support our project. If you are interested in collaborating or providing feedback, please reach out to us.
