@@ -9,13 +9,13 @@ The **Student Portal** is an integrated academic platform designed to enhance st
 - Foster **collaborative learning** through discussions and shared knowledge
 
 ## Key Features
-- 📌 **AI-Powered Chatbot** - Provides instant responses to student queries regarding university rules, events, and administrative guidance.
-- 📌 **Event Management System** - Helps students track, RSVP, and receive recommendations for academic events such as seminars and workshops.
-- 📌 **Mentorship & Collaboration** - Enables students to connect with peers, faculty, and alumni for mentorship and academic discussions.
-- 📌 **Resource Sharing** - Allows users to upload, discover, and access study materials in a structured knowledge-sharing environment.
-- 📌 **Centralized Dashboard** - Provides real-time notifications for college announcements, student affairs updates, and academic schedules.
+- **AI-Powered Chatbot** - Provides instant responses to student queries regarding university rules, events, and administrative guidance.
+- **Event Management System** - Helps students track, RSVP, and receive recommendations for academic events such as seminars and workshops.
+- **Mentorship & Collaboration** - Enables students to connect with peers, faculty, and alumni for mentorship and academic discussions.
+- **Resource Sharing** - Allows users to upload, discover, and access study materials in a structured knowledge-sharing environment.
+- **Centralized Dashboard** - Provides real-time notifications for college announcements, student affairs updates, and academic schedules.
 
-🎥 **[View the Project Presentation](https://studentportal-grad.github.io/student-portal-docs/presentation.html)**
+**[View the Project Presentation](https://studentportal-grad.github.io/student-portal-docs/presentation.html)**
 
 ## Interface Designs
 - **[Student Portal Application](https://studentportal-grad.github.io/student-portal-docs/0x10-Design/app_interface.html)** - A detailed view of the app's user interface, designed to provide a streamlined and intuitive student experience.
@@ -48,5 +48,5 @@ The **Student Portal** is an integrated academic platform designed to enhance st
 ## Call for Mentorship & Investment
 We are actively looking for **mentors, industry experts, and potential investors** from leading tech companies to guide and support our project. If you are interested in collaborating or providing feedback, please reach out to us.
 
-📧 **Contact Email:** studentportal.team@gmail.com <br>
+**Contact Email:** studentportal.team@gmail.com <br>
 **GitHub Orgnization:** [Student Portal](https://github.com/StudentPortal-grad/)
