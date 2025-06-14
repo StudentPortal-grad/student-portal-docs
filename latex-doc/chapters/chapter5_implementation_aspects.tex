@@ -1,0 +1,117 @@
+\chapter{Implementation Aspects}
+\label{chap:implementation}
+
+\section{Overall System Architecture}
+\label{sec:system_architecture}
+
+\subsection{Layered Architecture}
+
+\textbf{Client Layer}
+\begin{itemize}
+    \item \textbf{Web App (React)}: Dashboard, resource upload, mentorship matching
+    \item \textbf{Mobile App (Flutter)}: Notifications, calendar sync, community discussions
+\end{itemize}
+
+\textbf{Backend Layer}
+\begin{itemize}
+    \item \textbf{Auth Service}: JWT token generation, MFA
+    \item \textbf{Event Service}: Manages event creation, RSVPs, and Google Calendar sync
+    \item \textbf{Community Service}: Handles group creation, discussions, and mentorship tools
+\end{itemize}
+
+\textbf{AI Layer}
+\begin{itemize}
+    \item \textbf{Chatbot Service}: Flask API + Dialogflow (answers university queries)
+    \item \textbf{Recommendation Service}: TensorFlow model for personalized suggestions
+\end{itemize}
+
+\textbf{Storage Layer}
+\begin{itemize}
+    \item \textbf{MongoDB Atlas}: User profiles, events, and community data
+    \item \textbf{Elasticsearch}: Resource search and discovery
+\end{itemize}
+
+\textbf{Security Layer}
+\begin{itemize}
+    \item \textbf{API Gateway}: Kong/Express Gateway (rate limiting, JWT validation)
+    \item \textbf{Encryption}: AES-256 (data at rest), TLS 1.3 (data in transit)
+\end{itemize}
+
+\textbf{Integration Layer}
+\begin{itemize}
+    \item \textbf{Third-Party APIs}: Google Calendar, Firebase, Twilio
+\end{itemize}
+
+\subsection{Data Flow}
+\begin{enumerate}
+    \item Users interact via React/Flutter clients
+    \item Requests pass through API Gateway for security checks
+    \item Node.js backend processes CRUD operations
+    \item AI services provide real-time responses and recommendations
+    \item Real-time notifications (Socket.io/FCM) and calendar sync
+\end{enumerate}
+
+\subsection{Architecture Justification}
+\begin{itemize}
+    \item \textbf{Modularity}: Separates concerns for scalability
+    \item \textbf{Agile Alignment}: Supports iterative development sprints
+    \item \textbf{Compliance}: Meets security NFRs (encryption, audits) and usability goals
+\end{itemize}
+
+\section{Tools and Technologies}
+\label{sec:tools_tech}
+
+\textbf{Backend}
+\begin{itemize}
+    \item Framework: Express.js
+    \item Database: MongoDB
+    \item Real-Time: Socket.io
+    \item Authentication: JWT
+    \item Testing: Postman
+    \item CI/CD: GitHub Actions
+\end{itemize}
+
+\textbf{Frontend}
+\begin{itemize}
+    \item State Management: Redux Toolkit
+    \item UI Libraries: Material-UI, styled-components
+    \item Routing: React Router
+    \item Design Tools: Figma, Storybook
+\end{itemize}
+
+\textbf{Mobile}
+\begin{itemize}
+    \item Framework: Flutter
+    \item State Management: Provider
+    \item Notifications: Firebase Cloud Messaging
+    \item Local Storage: Hive
+\end{itemize}
+
+\textbf{AI Components}
+\begin{itemize}
+    \item Chatbot: Python with TensorFlow NLP
+    \item Recommendation System: scikit-learn with Flask API
+\end{itemize}
+
+\textbf{Security}
+\begin{itemize}
+    \item Encryption: TLS/SSL, bcrypt
+    \item Access Control: Role-Based Access Control (RBAC)
+    \item Vulnerability Scanning: OWASP ZAP
+\end{itemize}
+
+\textbf{Infrastructure}
+\begin{itemize}
+    \item Hosting: AWS EC2, Vercel
+    \item Containerization: Docker
+    \item Monitoring: Prometheus, Grafana
+\end{itemize}
+
+\subsection{Integration Highlights}
+\begin{itemize}
+    \item \textbf{Calendar Sync}: Google Calendar API integration
+    \item \textbf{File Storage}: Firebase Storage/Amazon S3 for academic resources
+    \item \textbf{Search}: Elasticsearch implementation
+    \item \textbf{Project Management}: Trello for sprint planning
+    \item \textbf{Collaboration}: Slack/Discord for team coordination
+\end{itemize}
