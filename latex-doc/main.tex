@@ -1,0 +1,99 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{algorithm}       
+\usepackage{algpseudocode}
+\usepackage{float}
+\usepackage{adjustbox}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{subcaption}
+
+\captionsetup[table]{skip=10pt, labelfont=bf, labelsep=colon}
+\geometry{a4paper, margin=1in}
+\renewcommand{\bibname}{References}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} 
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} 
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}} 
+
+\begin{document}  % <-- This must come before content
+
+\begin{titlepage}
+    \thispagestyle{empty}
+
+    % Logos
+    \begin{minipage}{0.49\textwidth}
+        \raggedright
+        \includegraphics[width=2.5cm]{images/university_logo.png}
+    \end{minipage}
+    \begin{minipage}{0.49\textwidth}
+        \raggedleft
+        \includegraphics[width=2.5cm]{images/faculty_logo.png}
+    \end{minipage}
+
+    \vspace{2cm}
+
+    \begin{center}
+        {\LARGE \textbf{Damanhour University}}\\[0.5em]
+        {\Large \textbf{Faculty of Computers and Information}}\\[1.5cm]
+
+        {\Large \textbf{Project II}}\\[0.5em]
+        {\Huge \textbf{Student Portal}}\\[1.5cm]
+
+        {\Large \textbf{Team Members}}\\[1em]
+        \begin{center}
+        \makebox[0.9\textwidth]{% reduce width to tighten layout
+            \begin{minipage}{0.48\textwidth}
+                \centering
+                Tasbeeh Ismail \\
+                Noor Allam \\
+                Abdul Rahman Abu Zied \\
+                Abdul Rahman Ahmed Saad \\
+                Mo’men Ayman \\
+            \end{minipage}
+            \begin{minipage}{0.48\textwidth}
+                \centering
+                Omnia Gamal \\
+                Mina Zarif \\
+                Youssef Abdelmaksod \\
+                Mona Alhusseiny \\
+                Abdullah Mohammed \\
+                Ziad Ahmed \\
+            \end{minipage}
+        }
+        \end{center}
+        
+
+        \vspace{2cm}
+        {\Large \textbf{Supervisors}}\\[1em]
+        Dr. Nora Shoaip\\
+        Eng. Abdelrahman Khaled
+
+        \vfill
+        {\large \textbf{May. 2025}}
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+
+% Include content chapters
+\input{chapters/chapter1_introduction}
+\input{chapters/chapter2_literature_review}
+\input{chapters/chapter3_requirements}
+\input{chapters/chapter4_design}
+\input{chapters/chapter5_implementation_aspects}
+\input{chapters/chapter6_implementation}
+\input{chapters/chapter7_testing}
+\input{chapters/chapter8_future_conclusion}
+
+\bibliographystyle{plain}
+
+\end{document}
