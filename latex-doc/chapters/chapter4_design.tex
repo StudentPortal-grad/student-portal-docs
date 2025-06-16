@@ -447,99 +447,240 @@ action\_url & String & "/events/656a3f1e8bfa9c001f3b2d6d" \\ \hline
 
 \vspace{3cm}
 
-
 \section{Algorithms and Pseudocode}
 \label{sec:algorithms}
 
-Key system algorithms are implemented as follows:
-
 \subsection{User Authentication}
+\begin{algorithm}[H]
+\caption{User Authentication Process}\label{alg:auth}
 \begin{algorithmic}[1]
-\State \textbf{Input:} username, password
-\State \textbf{Output:} Authentication status (success/failure)
-\State
-\State Prompt user to enter username and password
-\State Retrieve stored hashed password from database for the given username
-\If{username exists}
-    \State Hash the input password using the same hashing algorithm
-    \If{hashed input password matches stored hash}
-        \State Grant access to the system
-        \State \Return "Authentication successful"
+\Require email, password
+\Ensure Authentication status (success/failure)
+\State Validate email and password format
+\State Check if user exists in database
+\If{user exists}
+    \State Verify password hash
+    \If{password matches}
+        \State Generate JWT token
+        \State Store session information
+        \State \Return \{token, userData\}
     \Else
-        \State \Return "Authentication failed: Incorrect password"
+        \State \Return "Authentication failed: Invalid credentials"
     \EndIf
 \Else
     \State \Return "Authentication failed: User not found"
 \EndIf
 \end{algorithmic}
+\end{algorithm}
 
-\subsection{Profile Management}
+\subsection{User Registration}
+\begin{algorithm}[H]
+\caption{User Registration Process}\label{alg:registration}
 \begin{algorithmic}[1]
-\State \textbf{Input:} userID, updatedProfileData
-\State \textbf{Output:} Updated profile status
-\State
-\State Retrieve user profile using userID
-\If{profile exists}
-    \State Update profile fields with updatedProfileData
-    \State Save changes to the database
-    \State \Return "Profile updated successfully"
+\Require email, password, userData
+\Ensure Registration status
+\State Validate email format and password strength
+\State Check if email already exists
+\If{email is unique}
+    \State Generate verification OTP
+    \State Send verification email
+    \State Store user data with pending status
+    \State \Return "Registration initiated"
 \Else
-    \State \Return "Profile update failed: User not found"
+    \State \Return "Registration failed: Email already exists"
 \EndIf
 \end{algorithmic}
+\end{algorithm}
+
+\subsection{Email Verification}
+\begin{algorithm}[H]
+\caption{Email Verification Process}\label{alg:email_verification}
+\begin{algorithmic}[1]
+\Require email, verificationOTP
+\Ensure Verification status
+\State Validate OTP format
+\State Check OTP expiration
+\If{OTP is valid}
+    \State Update user email status
+    \State Clear verification OTP
+    \State \Return "Email verified successfully"
+\Else
+    \State \Return "Verification failed: Invalid OTP"
+\EndIf
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Password Management}
+\begin{algorithm}[H]
+\caption{Password Management Process}\label{alg:password}
+\begin{algorithmic}[1]
+\Require userId, currentPassword, newPassword
+\Ensure Password update status
+\State Verify current password
+\If{current password is correct}
+    \State Validate new password strength
+    \State Hash new password
+    \State Update password in database
+    \State Invalidate existing sessions
+    \State \Return "Password updated successfully"
+\Else
+    \State \Return "Password update failed: Current password incorrect"
+\EndIf
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{User Profile Management}
+\begin{algorithm}[H]
+\caption{Profile Management Process}\label{alg:profile}
+\begin{algorithmic}[1]
+\Require userId, profileData
+\Ensure Profile update status
+\State Validate profile data
+\If{profile picture provided}
+    \State Upload and process profile picture
+\EndIf
+\State Update user profile in database
+\State Update related user metrics
+\State \Return "Profile updated successfully"
+\end{algorithmic}
+\end{algorithm}
 
 \subsection{Event Management}
+\begin{algorithm}[H]
+\caption{Event Management Process}\label{alg:event}
 \begin{algorithmic}[1]
-\State \textbf{Input:} userID
-\State \textbf{Output:} List of events
-\State
+\Require eventData, userRole
+\Ensure Event creation/update status
+\State Validate event data
+\If{userRole is authorized}
+    \State Upload event image if provided
+    \State Create/update event in database
+    \State Generate calendar integration URLs
+    \State \Return \{eventId, calendarUrls\}
+\Else
+    \State \Return "Unauthorized: Insufficient permissions"
+\EndIf
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{View Events}
+\begin{algorithm}[H]
+\caption{Event Viewing Process}\label{alg:view_events}
+\begin{algorithmic}[1]
+\Require userID
+\Ensure List of events
 \State Retrieve events from the database
 \State Filter events based on user preferences (if any)
 \State Display events to the user
 \end{algorithmic}
+\end{algorithm}
 
-\vspace{2cm}
-
-\subsection{RSVP for Events}
+\subsection{RSVP Management}
+\begin{algorithm}[H]
+\caption{RSVP Process}\label{alg:rsvp}
 \begin{algorithmic}[1]
-\State \textbf{Input:} userID, eventID
-\State \textbf{Output:} RSVP status
-\State
-\State Check if the event exists in the database
+\Require userId, eventId, rsvpStatus
+\Ensure RSVP status
+\State Validate event exists
 \If{event exists}
-    \State Add userID to the event's RSVP list
-    \State Update the event in the database
-    \State \Return "RSVP successful"
+    \State Check if user already has RSVP
+    \If{existing RSVP}
+        \State Update RSVP status
+    \Else
+        \State Create new RSVP
+    \EndIf
+    \State Update event attendee count
+    \State \Return "RSVP updated successfully"
 \Else
     \State \Return "RSVP failed: Event not found"
 \EndIf
 \end{algorithmic}
+\end{algorithm}
 
-\subsection{AI-Suggested Events}
+\subsection{Calendar Integration}
+\begin{algorithm}[H]
+\caption{Calendar Integration Process}\label{alg:calendar}
 \begin{algorithmic}[1]
-\State \textbf{Input:} userID
-\State \textbf{Output:} List of suggested events
-\State
-\State Retrieve user preferences and past event attendance
-\State Use AI model to predict events of interest
-\State \Return list of suggested events
+\Require eventId, calendarType
+\Ensure Calendar integration URLs
+\State Generate event details in iCal format
+\State Create calendar-specific URLs
+\If{calendarType is Google}
+    \State Generate Google Calendar URL
+\ElsIf{calendarType is Outlook}
+    \State Generate Outlook Calendar URL
+\EndIf
+\State \Return calendar integration URLs
 \end{algorithmic}
+\end{algorithm}
 
-\subsection{Resource Sharing}
+\subsection{Sync with Personal Calendars}
+\begin{algorithm}[H]
+\caption{Calendar Sync Process}\label{alg:calendar_sync}
 \begin{algorithmic}[1]
-\State \textbf{Input:} userID, resourceFile, category
-\State \textbf{Output:} Upload status
-\State
-\State Upload resourceFile to the server
-\State Store resource metadata in the database
-\State \Return "Resource uploaded successfully"
+\Require userID, eventID
+\Ensure Sync status
+\State Retrieve event details using eventID
+\If{event exists}
+    \State Add event to user's personal calendar (Google Calendar, Outlook)
+    \State \Return "Sync successful"
+\Else
+    \State \Return "Sync failed: Event not found"
+\EndIf
 \end{algorithmic}
+\end{algorithm}
+
+\subsection{Resource Management}
+\begin{algorithm}[H]
+\caption{Resource Management Process}\label{alg:resource}
+\begin{algorithmic}[1]
+\Require resourceData, file, userId
+\Ensure Resource creation status
+\State Validate resource data and file
+\State Upload file to storage service
+\State Create resource entry in database
+\State Initialize metrics (views, downloads, votes)
+\State \Return \{resourceId, fileUrl\}
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Resource Interaction}
+\begin{algorithm}[H]
+\caption{Resource Interaction Process}\label{alg:resource_interaction}
+\begin{algorithmic}[1]
+\Require resourceId, userId, interactionType
+\Ensure Interaction status
+\State Validate resource exists
+\If{interactionType is vote}
+    \State Update resource vote count
+\ElsIf{interactionType is comment}
+    \State Add comment to resource
+\ElsIf{interactionType is report}
+    \State Create resource report
+\EndIf
+\State Update resource metrics
+\State \Return "Interaction recorded successfully"
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Categorized Content Upload}
+\begin{algorithm}[H]
+\caption{Content Upload Process}\label{alg:content_upload}
+\begin{algorithmic}[1]
+\Require userID, contentFile, category
+\Ensure Content upload status
+\State Upload contentFile to the server
+\State Store content metadata (userID, category, timestamp) in the database
+\State \Return "Content uploaded successfully"
+\end{algorithmic}
+\end{algorithm}
 
 \subsection{Discussion Participation}
+\begin{algorithm}[H]
+\caption{Discussion Participation Process}\label{alg:discussion}
 \begin{algorithmic}[1]
-\State \textbf{Input:} userID, discussionID, message
-\State \textbf{Output:} Participation status
-\State
+\Require userID, discussionID, message
+\Ensure Participation status
 \State Retrieve discussion using discussionID
 \If{discussion exists}
     \State Add message to the discussion
@@ -549,112 +690,108 @@ Key system algorithms are implemented as follows:
     \State \Return "Discussion not found"
 \EndIf
 \end{algorithmic}
-
-\vspace{2cm}
-
-\subsection{AI-Powered Chatbot}
-\begin{algorithmic}[1]
-\State \textbf{Input:} userQuery
-\State \textbf{Output:} Chatbot response
-\State
-\State Analyze userQuery using NLP
-\State Retrieve most relevant response from FAQ database
-\State \Return response to the user
-\end{algorithmic}
-
-\subsection{Recommendation Engine}
-\begin{algorithmic}[1]
-\State \textbf{Input:} userID
-\State \textbf{Output:} List of recommended content
-\State
-\State Retrieve user preferences and past interactions
-\State Use collaborative filtering algorithm
-\State \Return list of recommended content
-\end{algorithmic}
-
-\subsection{Announcements Dashboard}
-\begin{algorithmic}[1]
-\State \textbf{Description:} Displays important announcements and updates to users
-\State
-\State \textbf{Input:} userID
-\State \textbf{Output:} List of announcements
-\State
-\State Retrieve announcements from the database
-\State Filter announcements based on user preferences (if any)
-\State Display announcements to the user
-\end{algorithmic}
+\end{algorithm}
 
 \subsection{Direct Messaging}
+\begin{algorithm}[H]
+\caption{Direct Messaging Process}\label{alg:messaging}
 \begin{algorithmic}[1]
-\State \textbf{Description:} Allows users to send direct messages to mentors or peers
-\State
-\State \textbf{Input:} senderID, receiverID, message
-\State \textbf{Output:} Message send status (success/failure)
-\State
+\Require senderID, receiverID, message
+\Ensure Message send status
 \State Store message in the database with senderID, receiverID, and timestamp
 \State Notify receiver of the new message
 \State \Return "Message sent successfully"
 \end{algorithmic}
+\end{algorithm}
 
-\subsection{Categorized Content Upload}
+\subsection{AI-Powered Chatbot}
+\begin{algorithm}[H]
+\caption{AI Chatbot Response Process}\label{alg:chatbot}
 \begin{algorithmic}[1]
-\State \textbf{Description:} Allows users to upload content under specific categories
-\State
-\State \textbf{Input:} userID, contentFile, category
-\State \textbf{Output:} Content upload status (success/failure)
-\State
-\State Upload contentFile to the server
-\State Store content metadata (userID, category, timestamp) in the database
-\State \Return "Content uploaded successfully"
+\Require userQuery
+\Ensure Chatbot response
+\State Analyze userQuery using NLP
+\State Retrieve most relevant response from FAQ database
+\State \Return response to the user
 \end{algorithmic}
+\end{algorithm}
 
-\subsection{Sync with Personal Calendars}
+\subsection{Event Recommendations}
+\begin{algorithm}[H]
+\caption{Event Recommendation Process}\label{alg:recommendations}
 \begin{algorithmic}[1]
-\State \textbf{Description:} Allows users to sync event dates with personal calendars
-\State
-\State \textbf{Input:} userID, eventID
-\State \textbf{Output:} Sync status (success/failure)
-\State
-\State Retrieve event details using eventID
-\If{event exists}
-    \State Add event to user's personal calendar (Google Calendar, Outlook)
-    \State \Return "Sync successful"
-\Else
-    \State \Return "Sync failed: Event not found"
-\EndIf
+\Require userId
+\Ensure List of recommended events
+\State Retrieve user's past event attendance
+\State Get user's interests and preferences
+\State Calculate event relevance scores
+\State Filter events based on user's schedule
+\State Sort events by relevance score
+\State \Return top N recommended events
 \end{algorithmic}
+\end{algorithm}
 
-\subsection{View Events}
+\subsection{Resource Recommendations}
+\begin{algorithm}[H]
+\caption{Resource Recommendation Process}\label{alg:resource_recommendations}
 \begin{algorithmic}[1]
-\State \textbf{Description:} Allows users to view academic events
-\State
-\State \textbf{Input:} userID
-\State \textbf{Output:} List of events
-\State
-\State Retrieve events from the database
-\State Filter events based on user preferences (if any)
-\State Display events to the user
+\Require userId
+\Ensure List of recommended resources
+\State Get user's download history
+\State Analyze user's resource interactions
+\State Calculate resource relevance scores
+\State Consider resource ratings and popularity
+\State \Return top N recommended resources
 \end{algorithmic}
+\end{algorithm}
+
+\subsection{Recommendation Engine}
+\begin{algorithm}[H]
+\caption{Content Recommendation Process}\label{alg:recommendation}
+\begin{algorithmic}[1]
+\Require userID
+\Ensure List of recommended content
+\State Retrieve user preferences and past interactions
+\State Use collaborative filtering algorithm
+\State \Return list of recommended content
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Announcements Dashboard}
+\begin{algorithm}[H]
+\caption{Announcements Display Process}\label{alg:announcements}
+\begin{algorithmic}[1]
+\Require userID
+\Ensure List of announcements
+\State Retrieve announcements from the database
+\State Filter announcements based on user preferences (if any)
+\State Display announcements to the user
+\end{algorithmic}
+\end{algorithm}
 
 \subsection{Mentorship Matching}
+\begin{algorithm}[H]
+\caption{Mentorship Matching Process}\label{alg:mentorship}
 \begin{algorithmic}[1]
-\State \textbf{Input:} userID
-\State \textbf{Output:} Matched mentor
-\State
+\Require userID
+\Ensure Matched mentor
 \State Retrieve user profile and preferences
 \State Calculate compatibility scores with potential mentors
 \State \Return best matching mentor
 \end{algorithmic}
+\end{algorithm}
 
 \subsection{Real-Time Notifications}
+\begin{algorithm}[H]
+\caption{Notification Process}\label{alg:notifications}
 \begin{algorithmic}[1]
-\State \textbf{Input:} userID, notificationMessage
-\State \textbf{Output:} Notification status
-\State
+\Require userID, notificationMessage
+\Ensure Notification status
 \State Send notificationMessage to user's device
 \State Store notification in the database
 \State \Return "Notification sent successfully"
 \end{algorithmic}
+\end{algorithm} 
 
 \section{Interface Design}
 \label{sec:interface_design}
