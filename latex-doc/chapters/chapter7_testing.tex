@@ -197,8 +197,8 @@ White box testing focused on examining the internal structure and logic of the s
 
 \subsection{Sample Test Cases}
 
-\resizebox{\textwidth}{!}{%
-\begin{longtable}{|p{1.5cm}|p{2.2cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{1.5cm}|}
+{\footnotesize
+\begin{longtable}{|C{1.5cm}|C{2.2cm}|C{3cm}|C{2cm}|C{2cm}|C{2cm}|C{1cm}|}
 \caption{White Box Test Cases} \\
 \hline
 \textbf{Test Case ID} & \textbf{Module} & \textbf{Function Name} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Result} \\
@@ -270,7 +270,7 @@ TC-WB-25 & Resources & uploadResource() & Valid file upload & Upload success & U
 \hline
 TC-WB-26 & Resources & uploadResource() & Unsupported file type & Error response & Error response & Pass \\
 \hline
-TC-WB-27 & Resources & interactWithResource() & Valid interaction & Interaction recorded & Interaction recorded & Pass \\
+TC-WB-27 & Resources & interactWith-Resource() & Valid interaction & Interaction recorded & Interaction recorded & Pass \\
 \hline
 TC-WB-28 & Events & createEvent() & Valid event data & Event created & Event created & Pass \\
 \hline
@@ -428,7 +428,7 @@ Black box testing focused on testing the system from a user's perspective, valid
 \subsection{Sample Test Cases}
 
 {\footnotesize
-\begin{longtable}{|p{1.5cm}|p{2.2cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{1.5cm}|}
+\begin{longtable}{|C{1.5cm}|C{2.2cm}|C{2cm}|C{2cm}|C{2cm}|C{2cm}|C{1cm}|}
 \caption{Black Box Test Cases} \\
 \hline
 \textbf{Test Case ID} & \textbf{Module} & \textbf{Test Description} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Result} \\
@@ -514,7 +514,7 @@ TC-BB-30 & Events & Sync to Calendar & Valid sync request & Sync success & Sync 
 \subsection{Additional Test Cases}
 
 {\footnotesize
-\begin{longtable}{|p{1.5cm}|p{2.2cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{1.5cm}|}
+\begin{longtable}{|C{1.5cm}|C{2.2cm}|C{2cm}|C{2cm}|C{2cm}|C{2cm}|C{1cm}|}
 \caption{Additional Black Box Test Cases} \\
 \hline
 \textbf{Test Case ID} & \textbf{Module} & \textbf{Test Description} & \textbf{Input} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Result} \\
@@ -1011,7 +1011,7 @@ TC-BB-30 & Notifications & Mark as read & Read request & Status updated & Status
 \subsubsection{Web Security Test Cases}
 
 {\footnotesize
-\begin{longtable}{|p{1.5cm}|p{2.5cm}|p{3.5cm}|p{2.5cm}|p{2.5cm}|p{1.5cm}|}
+\begin{longtable}{|C{1.5cm}|C{2.5cm}|C{3cm}|C{2cm}|C{2cm}|C{1cm}|}
 \caption{Web Security Test Cases} \\
 \hline
 \textbf{Test Case ID} & \textbf{Security Area} & \textbf{Test Description} & \textbf{Expected Result} & \textbf{Actual Result} & \textbf{Status} \\
@@ -1097,7 +1097,7 @@ SEC-30 & A10:2021-Server-Side Request Forgery & Test internal resource access & 
 \subsubsection{Mobile Security Test Cases}
 
 {\footnotesize
-\begin{longtable}{|p{1.5cm}|p{2.5cm}|p{3.5cm}|p{2.5cm}|p{2.5cm}|p{1.5cm}|}
+\begin{longtable}{|C{1.5cm}|C{2.5cm}|C{3.5cm}|C{2.5cm}|C{2.5cm}|C{1.5cm}|}
 \caption{Mobile Security Test Cases} \\
 \hline
 \textbf{Test Case ID} & \textbf{Security Area} & \textbf{Test Description} & \textbf{Expected Result} & \textbf{Actual Result} & \textbf{Status} \\
@@ -1163,7 +1163,7 @@ MSEC-20 & M10: Extraneous Functionality & Test backdoor detection & No backdoors
 \subsubsection{Backend Security Test Cases}
 
 {\footnotesize
-\begin{longtable}{|p{1.5cm}|p{2.5cm}|p{3.5cm}|p{2.5cm}|p{2.5cm}|p{1.5cm}|}
+\begin{longtable}{|C{1.5cm}|C{2.5cm}|C{3.5cm}|C{2.5cm}|C{2.5cm}|C{1.5cm}|}
 \caption{Backend Security Test Cases} \\
 \hline
 \textbf{Test Case ID} & \textbf{Security Area} & \textbf{Test Description} & \textbf{Expected Result} & \textbf{Actual Result} & \textbf{Status} \\
