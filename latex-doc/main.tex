@@ -1,7 +1,8 @@
 \documentclass[12pt]{report}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}  % Added for better font encoding
 \usepackage{graphicx}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{longtable}
 \usepackage{listings}
 \usepackage{amsmath}
@@ -14,6 +15,189 @@
 \usepackage{array}
 \usepackage{ragged2e}
 \usepackage{subcaption}
+\usepackage{placeins}
+\usepackage{xcolor}  % Added for code coloring
+\usepackage{tcolorbox}  % Added for colored boxes
+\tcbuselibrary{skins}  % Added for additional box styles
+
+% NEW PACKAGES FOR TREE STRUCTURES
+\usepackage{forest}  % For professional tree structures
+\usepackage{tikz}    % For custom tree drawings
+\usetikzlibrary{trees}
+
+% Configure tcolorbox style
+\tcbset{
+    enhanced,
+    colback=blue!5!white,        % Light blue background instead of white
+    colframe=blue!70!black,      % Darker frame for better visibility
+    coltitle=black,              % BLACK TITLE TEXT
+    fonttitle=\bfseries,
+    boxrule=1pt,                 % Thicker border
+    arc=3mm,                     % Slightly more rounded corners
+    title style={fill=white},    % WHITE TITLE BACKGROUND
+    attach title to upper,
+    drop shadow,                 % Add shadow for better visibility
+    before skip=10pt,            % Space before box
+    after skip=10pt              % Space after box
+}
+
+% Additional tcolorbox styles for different purposes
+\newtcolorbox{architecturebox}[1][]{
+    enhanced,
+    colback=blue!8!white,
+    colframe=blue!75!black,
+    coltitle=black,              % BLACK TITLE TEXT
+    fonttitle=\bfseries\large,
+    boxrule=1.5pt,
+    arc=3mm,
+    title style={fill=white},    % WHITE TITLE BACKGROUND
+    drop shadow={opacity=0.3},
+    before skip=15pt,
+    after skip=15pt,
+    #1
+}
+
+\newtcolorbox{highlightbox}[1][]{
+    enhanced,
+    colback=gray!10!white,
+    colframe=gray!60!black,
+    coltitle=black,              % BLACK TITLE TEXT
+    fonttitle=\bfseries,
+    boxrule=1pt,
+    arc=2mm,
+    title style={fill=white},    % WHITE TITLE BACKGROUND
+    drop shadow={opacity=0.2},
+    before skip=10pt,
+    after skip=10pt,
+    #1
+}
+
+% Fix for UTF-8 encoding in listings
+\lstset{
+    extendedchars=true,
+    inputencoding=utf8,
+    literate={é}{{\'e}}1 {è}{{\`e}}1 {ê}{{\^e}}1 {ë}{{\"e}}1
+             {É}{{\'E}}1 {È}{{\`E}}1 {Ê}{{\^E}}1 {Ë}{{\"E}}1
+             {à}{{\`a}}1 {â}{{\^a}}1 {ä}{{\"a}}1
+             {À}{{\`A}}1 {Â}{{\^A}}1 {Ä}{{\"A}}1
+             {ç}{{\c{c}}}1 {Ç}{{\c{C}}}1
+             {œ}{{\oe}}1 {Œ}{{\OE}}1
+             {ù}{{\`u}}1 {û}{{\^u}}1 {ü}{{\"u}}1
+             {Ù}{{\`U}}1 {Û}{{\^U}}1 {Ü}{{\"U}}1
+             {î}{{\^i}}1 {ï}{{\"i}}1
+             {Î}{{\^I}}1 {Ï}{{\"I}}1
+             {ô}{{\^o}}1 {ö}{{\"o}}1
+             {Ô}{{\^O}}1 {Ö}{{\"O}}1
+}
+
+% Code styling configuration
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+% Define code style
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    frame=single,
+    xleftmargin=2em,
+    xrightmargin=2em
+}
+
+% ENHANCED DIRECTORY TREE STYLE FOR LISTINGS
+\lstdefinestyle{treestyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    basicstyle=\ttfamily\small,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    frame=single,
+    xleftmargin=1em,
+    xrightmargin=1em,
+    aboveskip=10pt,
+    belowskip=10pt
+}
+
+\lstset{style=mystyle}
+
+% CUSTOM FOREST STYLE FOR DIRECTORY TREES
+\forestset{
+    directory tree/.style={
+        for tree={
+            font=\ttfamily,
+            grow'=0,
+            child anchor=west,
+            parent anchor=south,
+            anchor=west,
+            calign=first,
+            edge path={
+                \noexpand\path [draw, \forestoption{edge}]
+                (!u.south west) +(7.5pt,0) |- node[fill,inner sep=1.25pt] {} (.child anchor)\forestoption{edge label};
+            },
+            before typesetting nodes={
+                if n=1
+                    {insert before={[,phantom]}}
+                    {}
+            },
+            fit=band,
+            before computing xy={l=15pt},
+        }
+    }
+}
+
+% CUSTOM COMMAND FOR SIMPLE DIRECTORY LISTINGS
+\newcommand{\dirtree}[1]{%
+    \begin{lstlisting}[style=treestyle, mathescape=false]
+#1
+    \end{lstlisting}
+}
+
+% Improved image placement settings
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.15}
+\renewcommand{\floatpagefraction}{0.85}
+\setlength{\floatsep}{3pt plus 1pt minus 1pt}        % Reduced spacing between floats
+\setlength{\textfloatsep}{3pt plus 1pt minus 1pt}    % Reduced spacing between text and floats
+\setlength{\intextsep}{3pt plus 1pt minus 1pt}       % Reduced spacing for in-text floats
+
+
+% Force figures to stay in their sections
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][]{%
+    \origfigure[#1]%
+    \setlength{\abovecaptionskip}{10pt}%
+    \setlength{\belowcaptionskip}{10pt}%
+}{%
+    \endorigfigure%
+}
 
 \captionsetup[table]{skip=10pt, labelfont=bf, labelsep=colon}
 \geometry{a4paper, margin=1in}
@@ -24,7 +208,7 @@
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} 
 \newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}} 
 
-\begin{document}  % <-- This must come before content
+\begin{document}  % <-- This must come before content 
 
 \begin{titlepage}
     \thispagestyle{empty}
@@ -57,7 +241,7 @@
                 Noor Allam \\
                 Abdul Rahman Abu Zied \\
                 Abdul Rahman Ahmed Saad \\
-                Mo’men Ayman \\
+                Mo'men Ayman \\
             \end{minipage}
             \begin{minipage}{0.48\textwidth}
                 \centering

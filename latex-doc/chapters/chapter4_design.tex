@@ -24,7 +24,7 @@ The following sequence diagrams illustrate key workflows in the Student Portal s
 \subsection{User Login Process}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{latex-doc/images/sequence_diagrams/user_login_process.png}
+    \includegraphics[width=0.9\textwidth]{images/sequence_diagrams/user_login_process.png}
     \caption{Authentication sequence with security measures}
     \label{fig:user_login}
 \end{figure}
@@ -32,7 +32,7 @@ The following sequence diagrams illustrate key workflows in the Student Portal s
 \subsection{Password Recovery Process}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{latex-doc/images/sequence_diagrams/password_recovery_process.png}
+    \includegraphics[width=0.9\textwidth]{images/sequence_diagrams/password_recovery_process.png}
     \caption{Password reset sequence diagram with email verification}
     \label{fig:password_recovery}
 \end{figure}
@@ -40,7 +40,7 @@ The following sequence diagrams illustrate key workflows in the Student Portal s
 \subsection{Create Profile Process}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{latex-doc/images/sequence_diagrams/create_profile_process.png}
+    \includegraphics[width=0.9\textwidth]{images/sequence_diagrams/create_profile_process.png}
     \caption{Profile creation sequence diagram showing validation and database storage}
     \label{fig:create_profile}
 \end{figure}
@@ -48,7 +48,7 @@ The following sequence diagrams illustrate key workflows in the Student Portal s
 \subsection{Create Group Process}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{latex-doc/images/sequence_diagrams/create_group_process.png}
+    \includegraphics[width=0.9\textwidth]{images/sequence_diagrams/create_group_process.png}
     \caption{Group creation sequence diagram}
     \label{fig:create_group}
 \end{figure}
@@ -56,7 +56,7 @@ The following sequence diagrams illustrate key workflows in the Student Portal s
 \subsection{Direct Messaging Process}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{latex-doc/images/sequence_diagrams/direct_messaging_process.png}
+    \includegraphics[width=0.9\textwidth]{images/sequence_diagrams/direct_messaging_process.png}
     \caption{Messaging sequence diagram}
     \label{fig:messaging}
 \end{figure}
@@ -64,7 +64,7 @@ The following sequence diagrams illustrate key workflows in the Student Portal s
 \subsection{Start a Discussion Process}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{latex-doc/images/sequence_diagrams/start_a_discussion_process.png}
+    \includegraphics[width=0.9\textwidth]{images/sequence_diagrams/start_a_discussion_process.png}
     \caption{Group discussion initiation sequence}
     \label{fig:start_discussion}
 \end{figure}
@@ -72,7 +72,7 @@ The following sequence diagrams illustrate key workflows in the Student Portal s
 \subsection{Upload Academic Material Process}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{latex-doc/images/sequence_diagrams/upload_academic_material_process.png}
+    \includegraphics[width=0.9\textwidth]{images/sequence_diagrams/upload_academic_material_process.png}
     \caption{Resource upload sequence with file validation}
     \label{fig:upload_material}
 \end{figure}
@@ -80,7 +80,7 @@ The following sequence diagrams illustrate key workflows in the Student Portal s
 \subsection{Create Event Process}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{latex-doc/images/sequence_diagrams/create_event_process.png}
+    \includegraphics[width=0.9\textwidth]{images/sequence_diagrams/create_event_process.png}
     \caption{Event creation workflow for faculty/admins}
     \label{fig:create_event}
 \end{figure}
@@ -92,14 +92,14 @@ The class diagram represents the core domain model of the Student Portal system:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{latex-doc/images/uml.png} 
+    \includegraphics[width=\textwidth]{images/uml.png} 
     \caption{Class diagram of the Student Portal system}
     \label{fig:class_diagram}
 \end{figure}
 
 \section{Entity Relationship Diagram (ERD)}
 \begin{adjustbox}{width=\textwidth, height=0.35\textheight, keepaspectratio, center}
-    \includegraphics{latex-doc/images/schema_diagram.png}
+    \includegraphics{images/schema_diagram.png}
 \end{adjustbox}
 
 
@@ -431,7 +431,7 @@ action\_url & String & "/events/656a3f1e8bfa9c001f3b2d6d" \\ \hline
 \subsection{Level 0 DFD (Context Diagram)}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{latex-doc/images/dfd_level0.png}
+    \includegraphics[width=0.8\textwidth]{images/dfd_level0.png}
     \caption{Context diagram showing system boundaries}
     \label{fig:dfd0}
 \end{figure}
@@ -439,7 +439,7 @@ action\_url & String & "/events/656a3f1e8bfa9c001f3b2d6d" \\ \hline
 \subsection{Level 1 DFD}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{latex-doc/images/dfd_level1.png}
+    \includegraphics[width=\textwidth]{images/dfd_level1.png}
     \caption{Level 1 DFD showing major subsystems}
     \label{fig:dfd1}
 \end{figure}
@@ -793,27 +793,42 @@ action\_url & String & "/events/656a3f1e8bfa9c001f3b2d6d" \\ \hline
 \end{algorithmic}
 \end{algorithm} 
 
+
 \section{Interface Design}
 \label{sec:interface_design}
+The interfaces were designed with a strong emphasis on usability, accessibility, and consistency. Every screen aligns with the overall system architecture and supports intuitive user workflows.
+
+\subsection*{Design Philosophy}
+\begin{itemize}
+    \item \textbf{Logical Grouping of Features:} Each section of the interface is contextually structured. For example, in the mobile app, navigation is bottom-tab based, clearly separating Home, Events, Chat, and AI tools. On the web dashboard, admin functionalities like Events, Communities, and Analytics are logically grouped in a sidebar.
+    
+    \item \textbf{Minimal Cognitive Load:} The design avoids overwhelming users by displaying only relevant information per view. Cards, modals, and tabs are used to reduce visual clutter and enhance clarity.
+    
+    \item \textbf{Feedback-Oriented Interactions:} All interactive components—buttons, forms, and modals—provide clear feedback (loading indicators, success/error messages), enhancing usability and user trust.
+    
+    \item \textbf{Responsive and Adaptive Design:} The interfaces automatically adjust layout and font sizes based on screen size, ensuring accessibility on tablets, phones, and desktops.
+    
+    \item \textbf{Role-Based Views:} The UI dynamically adapts based on user roles (student, admin, instructor). For instance, students only see their events and communities, while admins can manage all users and moderate content.
+\end{itemize}
 
 \subsection{Mobile Application Interfaces}
 \begin{figure}[H]
     \centering
     % First row
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\linewidth]{latex-doc/images/mobile_interface/Sign-up.png}
+        \includegraphics[width=\linewidth]{images/mobile_interface/Sign-up.png}
         \caption{Registration flow}
         \label{fig:signup}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\linewidth]{latex-doc/images/mobile_interface/Home.png}
+        \includegraphics[width=\linewidth]{images/mobile_interface/Home.png}
         \caption{Main activity feed}
         \label{fig:home}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\linewidth]{latex-doc/images/mobile_interface/Events.png}
+        \includegraphics[width=\linewidth]{images/mobile_interface/Events.png}
         \caption{Event discovery}
         \label{fig:events}
     \end{subfigure}
@@ -822,19 +837,19 @@ action\_url & String & "/events/656a3f1e8bfa9c001f3b2d6d" \\ \hline
     % Second row
     \hfill
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\linewidth]{latex-doc/images/mobile_interface/Resources.png}
+        \includegraphics[width=\linewidth]{images/mobile_interface/Resources.png}
         \caption{Academic resources}
         \label{fig:resources}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\linewidth]{latex-doc/images/mobile_interface/Chat.png}
+        \includegraphics[width=\linewidth]{images/mobile_interface/Chat.png}
         \caption{Messaging interface}
         \label{fig:chat}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\linewidth]{latex-doc/images/mobile_interface/General-Profile.png}
+        \includegraphics[width=\linewidth]{images/mobile_interface/General-Profile.png}
         \caption{User profile}
         \label{fig:profile}
     \end{subfigure}
@@ -848,12 +863,12 @@ action\_url & String & "/events/656a3f1e8bfa9c001f3b2d6d" \\ \hline
 \begin{figure}[H]
     \centering
     \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{latex-doc/images/web_interface/Authentication-Sign_In.jpg}
+        \includegraphics[width=\textwidth]{images/web_interface/Authentication-Sign_In.jpg}
         \caption{Admin login screen}
         \label{fig:admin_login}
     \end{subfigure}
     \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{latex-doc/images/web_interface/Authentication-Sign_Up.jpg}
+        \includegraphics[width=\textwidth]{images/web_interface/Authentication-Sign_Up.jpg}
         \caption{Admin account creation}
         \label{fig:admin_signup}
     \end{subfigure}
@@ -864,12 +879,12 @@ action\_url & String & "/events/656a3f1e8bfa9c001f3b2d6d" \\ \hline
 \begin{figure}[H]
     \centering
     \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{latex-doc/images/web_interface/Overview.jpg}
+        \includegraphics[width=\textwidth]{images/web_interface/Overview.jpg}
         \caption{Dashboard overview}
         \label{fig:overview}
     \end{subfigure}
     \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{latex-doc/images/web_interface/User-Management.jpg}
+        \includegraphics[width=\textwidth]{images/web_interface/User-Management.jpg}
         \caption{User management console}
         \label{fig:user_mgmt}
     \end{subfigure}
@@ -880,12 +895,12 @@ action\_url & String & "/events/656a3f1e8bfa9c001f3b2d6d" \\ \hline
 \begin{figure}[H]
     \centering
     \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{latex-doc/images/web_interface/AI-training.jpg}
+        \includegraphics[width=\textwidth]{images/web_interface/AI-training.jpg}
         \caption{AI model training interface}
         \label{fig:ai_training}
     \end{subfigure}
     \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{latex-doc/images/web_interface/Event-Management-cal.jpg}
+        \includegraphics[width=\textwidth]{images/web_interface/Event-Management-cal.jpg}
         \caption{Event moderation panel}
         \label{fig:event_mgmt}
     \end{subfigure}
