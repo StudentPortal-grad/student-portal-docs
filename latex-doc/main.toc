@@ -1,232 +1,232 @@
-\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Motivation}{5}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Problem Statement}{5}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Goals of the Project}{5}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Software Development Methodology}{6}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Literature Review}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Feature Matrix}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Comparison of Existing Solutions with the Proposed Solution}{8}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Requirement Engineering}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Surveys, Questionnaires, and Interviews}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Functional Requirements}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Non-Functional Requirements}{10}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Use Case Diagram}{11}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Use Case Tables}{12}{section.3.5}%
-\contentsline {subsubsection}{User Management}{12}{section*.6}%
-\contentsline {subsubsection}{Communication}{13}{section*.12}%
-\contentsline {subsubsection}{Resource Management}{16}{section*.21}%
-\contentsline {subsubsection}{Event Management}{17}{section*.24}%
-\contentsline {chapter}{\numberline {4}System Design}{18}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{18}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Sequence Diagrams}{18}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}User Registration Process}{19}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}User Login Process}{20}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Password Recovery Process}{21}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Create Profile Process}{22}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Create Group Process}{23}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Direct Messaging Process}{24}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Start a Discussion Process}{25}{subsection.4.2.7}%
-\contentsline {subsection}{\numberline {4.2.8}Upload Academic Material Process}{26}{subsection.4.2.8}%
-\contentsline {subsection}{\numberline {4.2.9}Create Event Process}{27}{subsection.4.2.9}%
-\contentsline {section}{\numberline {4.3}Class Diagram}{28}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Entity Relationship Diagram (ERD)}{28}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Data Dictionary}{29}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Users Table}{29}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Communities Table}{29}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Embedded Structures}{29}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Discussions Table}{30}{subsection.4.5.4}%
-\contentsline {subsection}{\numberline {4.5.5}Conversations Table}{30}{subsection.4.5.5}%
-\contentsline {subsection}{\numberline {4.5.6}Messages Table}{31}{subsection.4.5.6}%
-\contentsline {subsection}{\numberline {4.5.7}Embedded Structures}{31}{subsection.4.5.7}%
-\contentsline {subsubsection}{Discussion Attachments}{31}{section*.38}%
-\contentsline {subsubsection}{Discussion Replies}{31}{section*.39}%
-\contentsline {subsubsection}{Message Attachments}{31}{section*.40}%
-\contentsline {subsection}{\numberline {4.5.8}Roles Table}{32}{subsection.4.5.8}%
-\contentsline {subsection}{\numberline {4.5.9}Permission Bitmask Values}{32}{subsection.4.5.9}%
-\contentsline {subsection}{\numberline {4.5.10}Resources Table}{32}{subsection.4.5.10}%
-\contentsline {subsection}{\numberline {4.5.11}Embedded Structures}{33}{subsection.4.5.11}%
-\contentsline {subsubsection}{Resource Interactions}{33}{section*.41}%
-\contentsline {subsubsection}{Rating Structure}{33}{section*.42}%
-\contentsline {subsubsection}{Comment Structure}{33}{section*.43}%
-\contentsline {subsection}{\numberline {4.5.12}Events Table}{33}{subsection.4.5.12}%
-\contentsline {subsection}{\numberline {4.5.13}RSVPs Table}{34}{subsection.4.5.13}%
-\contentsline {subsection}{\numberline {4.5.14}Notifications Table}{34}{subsection.4.5.14}%
-\contentsline {subsection}{\numberline {4.5.15}Embedded Structures}{35}{subsection.4.5.15}%
-\contentsline {subsubsection}{Event Metadata}{35}{section*.44}%
-\contentsline {subsubsection}{Notification Metadata}{35}{section*.45}%
-\contentsline {section}{\numberline {4.6}Data Flow Diagrams (DFD)}{36}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Level 0 DFD (Context Diagram)}{36}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Level 1 DFD}{36}{subsection.4.6.2}%
-\contentsline {section}{\numberline {4.7}Algorithms and Pseudocode}{37}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}User Authentication}{37}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}User Registration}{37}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}Email Verification}{38}{subsection.4.7.3}%
-\contentsline {subsection}{\numberline {4.7.4}Password Management}{38}{subsection.4.7.4}%
-\contentsline {subsection}{\numberline {4.7.5}User Profile Management}{38}{subsection.4.7.5}%
-\contentsline {subsection}{\numberline {4.7.6}Event Management}{39}{subsection.4.7.6}%
-\contentsline {subsection}{\numberline {4.7.7}View Events}{39}{subsection.4.7.7}%
-\contentsline {subsection}{\numberline {4.7.8}RSVP Management}{39}{subsection.4.7.8}%
-\contentsline {subsection}{\numberline {4.7.9}Calendar Integration}{40}{subsection.4.7.9}%
-\contentsline {subsection}{\numberline {4.7.10}Sync with Personal Calendars}{40}{subsection.4.7.10}%
-\contentsline {subsection}{\numberline {4.7.11}Resource Management}{40}{subsection.4.7.11}%
-\contentsline {subsection}{\numberline {4.7.12}Resource Interaction}{41}{subsection.4.7.12}%
-\contentsline {subsection}{\numberline {4.7.13}Categorized Content Upload}{41}{subsection.4.7.13}%
-\contentsline {subsection}{\numberline {4.7.14}Discussion Participation}{41}{subsection.4.7.14}%
-\contentsline {subsection}{\numberline {4.7.15}Direct Messaging}{41}{subsection.4.7.15}%
-\contentsline {subsection}{\numberline {4.7.16}AI-Powered Chatbot}{42}{subsection.4.7.16}%
-\contentsline {subsection}{\numberline {4.7.17}Event Recommendations}{42}{subsection.4.7.17}%
-\contentsline {subsection}{\numberline {4.7.18}Resource Recommendations}{42}{subsection.4.7.18}%
-\contentsline {subsection}{\numberline {4.7.19}Recommendation Engine}{42}{subsection.4.7.19}%
-\contentsline {subsection}{\numberline {4.7.20}Announcements Dashboard}{42}{subsection.4.7.20}%
-\contentsline {subsection}{\numberline {4.7.21}Mentorship Matching}{43}{subsection.4.7.21}%
-\contentsline {subsection}{\numberline {4.7.22}Real-Time Notifications}{43}{subsection.4.7.22}%
-\contentsline {section}{\numberline {4.8}Interface Design}{43}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Mobile Application Interfaces}{45}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Admin Dashboard Interfaces}{45}{subsection.4.8.2}%
-\contentsline {chapter}{\numberline {5}Implementation Aspects}{46}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Overall System Architecture}{46}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Layered Architecture}{46}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Data Flow}{47}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Architecture Justification}{47}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}Tools and Technologies}{47}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Integration Highlights}{48}{subsection.5.2.1}%
-\contentsline {chapter}{\numberline {6}Implementation}{49}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Introduction}{49}{section.6.1}%
-\contentsline {subsubsection}{System Architecture Highlights}{49}{section*.53}%
-\contentsline {subsection}{\numberline {6.1.1}GitHub Organization and Workflow}{49}{subsection.6.1.1}%
-\contentsline {subsubsection}{Organization Structure}{49}{section*.54}%
-\contentsline {subsubsection}{Development Workflow}{50}{section*.56}%
-\contentsline {section}{\numberline {6.2}Frontend Screens}{50}{section.6.2}%
-\contentsline {subsubsection}{Web Application Screens}{50}{section*.57}%
-\contentsline {subsubsection}{Mobile Application Screens}{51}{section*.59}%
-\contentsline {section}{\numberline {6.3}Project File Structure Overview}{52}{section.6.3}%
-\contentsline {subsubsection}{Backend (Node.js + TypeScript)}{52}{section*.61}%
-\contentsline {subsubsection}{Web Application (Next.js + Tailwind CSS)}{53}{section*.62}%
-\contentsline {subsubsection}{Mobile Application (Flutter + BLoC Pattern)}{53}{section*.63}%
-\contentsline {subsubsection}{AI/ML Services (Python + PyTorch + Flask)}{54}{section*.64}%
-\contentsline {section}{\numberline {6.4}Code Implementation Examples}{55}{section.6.4}%
-\contentsline {subsubsection}{Backend Implementation}{55}{section*.65}%
-\contentsline {paragraph}{User Repository}{55}{section*.66}%
-\contentsline {paragraph}{Authentication Service}{56}{section*.67}%
-\contentsline {paragraph}{Notification Service}{57}{section*.68}%
-\contentsline {subsubsection}{Web Frontend Implementation}{58}{section*.69}%
-\contentsline {paragraph}{Custom Hook Example}{58}{section*.70}%
-\contentsline {paragraph}{Form Component}{59}{section*.71}%
-\contentsline {paragraph}{API Client}{59}{section*.72}%
-\contentsline {subsubsection}{Mobile App Implementation}{60}{section*.73}%
-\contentsline {paragraph}{Login Bloc}{60}{section*.74}%
-\contentsline {paragraph}{Theme Provider}{61}{section*.75}%
-\contentsline {paragraph}{API Service}{61}{section*.76}%
-\contentsline {subsubsection}{AI/ML Implementation}{62}{section*.77}%
-\contentsline {paragraph}{Sentiment Analysis Model}{62}{section*.78}%
-\contentsline {paragraph}{Recommender System}{62}{section*.79}%
-\contentsline {paragraph}{Text Classification Model}{63}{section*.80}%
-\contentsline {chapter}{\numberline {7}Testing Report}{64}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Introduction}{64}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Testing Strategy}{64}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Overall Approach}{65}{subsection.7.2.1}%
-\contentsline {subsubsection}{Automated Testing (70\% of test cases)}{65}{section*.81}%
-\contentsline {subsubsection}{Manual Testing (30\% of test cases)}{65}{section*.82}%
-\contentsline {subsection}{\numberline {7.2.2}Testing Levels}{65}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Prioritized Modules}{66}{subsection.7.2.3}%
-\contentsline {section}{\numberline {7.3}White Box Testing}{67}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Introduction}{67}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Objectives}{67}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Testing Techniques Used}{67}{subsection.7.3.3}%
-\contentsline {subsection}{\numberline {7.3.4}Tools Used}{68}{subsection.7.3.4}%
-\contentsline {subsection}{\numberline {7.3.5}Sample Test Cases}{68}{subsection.7.3.5}%
-\contentsline {subsection}{\numberline {7.3.6}Code Coverage Report}{70}{subsection.7.3.6}%
-\contentsline {subsubsection}{Backend Coverage}{70}{section*.83}%
-\contentsline {subsubsection}{Frontend Coverage}{70}{section*.84}%
-\contentsline {subsubsection}{Mobile App Coverage}{70}{section*.85}%
-\contentsline {subsubsection}{AI Module Coverage}{70}{section*.86}%
-\contentsline {subsection}{\numberline {7.3.7}Issues Identified and Fixes}{71}{subsection.7.3.7}%
-\contentsline {subsubsection}{Backend Issues}{71}{section*.87}%
-\contentsline {subsubsection}{Frontend Issues}{71}{section*.88}%
-\contentsline {subsubsection}{Mobile Issues}{71}{section*.89}%
-\contentsline {subsubsection}{AI Module Issues}{71}{section*.90}%
-\contentsline {section}{\numberline {7.4}Black Box Testing}{71}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Introduction}{71}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Objectives}{71}{subsection.7.4.2}%
-\contentsline {subsection}{\numberline {7.4.3}Testing Techniques Used}{72}{subsection.7.4.3}%
-\contentsline {subsection}{\numberline {7.4.4}Tools Used}{72}{subsection.7.4.4}%
-\contentsline {subsection}{\numberline {7.4.5}Sample Test Cases}{73}{subsection.7.4.5}%
-\contentsline {subsection}{\numberline {7.4.6}Additional Test Cases}{74}{subsection.7.4.6}%
-\contentsline {section}{\numberline {7.5}Other Types of Testing Conducted}{75}{section.7.5}%
-\contentsline {subsection}{\numberline {7.5.1}Unit Testing}{75}{subsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.5.2}Integration Testing}{75}{subsection.7.5.2}%
-\contentsline {subsection}{\numberline {7.5.3}System Testing}{76}{subsection.7.5.3}%
-\contentsline {subsection}{\numberline {7.5.4}Acceptance Testing}{76}{subsection.7.5.4}%
-\contentsline {subsection}{\numberline {7.5.5}Functional Areas Covered}{76}{subsection.7.5.5}%
-\contentsline {subsection}{\numberline {7.5.6}Issues Identified and Fixes}{77}{subsection.7.5.6}%
-\contentsline {subsubsection}{Community Features}{77}{section*.91}%
-\contentsline {subsubsection}{Social Features}{77}{section*.92}%
-\contentsline {subsubsection}{Performance}{77}{section*.93}%
-\contentsline {section}{\numberline {7.6}Performance Testing}{77}{section.7.6}%
-\contentsline {subsection}{\numberline {7.6.1}Tools Used}{77}{subsection.7.6.1}%
-\contentsline {subsection}{\numberline {7.6.2}Results}{78}{subsection.7.6.2}%
-\contentsline {subsubsection}{Web Application}{78}{section*.94}%
-\contentsline {subsubsection}{Mobile Application}{78}{section*.95}%
-\contentsline {subsubsection}{Backend API}{78}{section*.96}%
-\contentsline {subsubsection}{AI Module}{78}{section*.97}%
-\contentsline {section}{\numberline {7.7}Security Testing}{78}{section.7.7}%
-\contentsline {subsection}{\numberline {7.7.1}Tools Used}{78}{subsection.7.7.1}%
-\contentsline {subsection}{\numberline {7.7.2}Findings}{78}{subsection.7.7.2}%
-\contentsline {subsubsection}{Authentication}{78}{section*.98}%
-\contentsline {subsubsection}{Data Protection}{79}{section*.99}%
-\contentsline {subsubsection}{API Security}{79}{section*.100}%
-\contentsline {subsection}{\numberline {7.7.3}Authentication Security}{79}{subsection.7.7.3}%
-\contentsline {subsubsection}{Password Policies}{79}{section*.101}%
-\contentsline {subsubsection}{Session Management}{79}{section*.102}%
-\contentsline {subsubsection}{Two-Factor Authentication}{79}{section*.103}%
-\contentsline {subsection}{\numberline {7.7.4}Data Security}{79}{subsection.7.7.4}%
-\contentsline {subsubsection}{Input Validation}{79}{section*.104}%
-\contentsline {subsubsection}{Data Encryption}{80}{section*.105}%
-\contentsline {subsubsection}{Access Control}{80}{section*.106}%
-\contentsline {subsection}{\numberline {7.7.5}API Security}{80}{subsection.7.7.5}%
-\contentsline {subsubsection}{Authentication}{80}{section*.107}%
-\contentsline {subsubsection}{Request Validation}{80}{section*.108}%
-\contentsline {subsubsection}{Response Security}{80}{section*.109}%
-\contentsline {subsection}{\numberline {7.7.6}Mobile Security}{81}{subsection.7.7.6}%
-\contentsline {subsubsection}{App Security}{81}{section*.110}%
-\contentsline {subsubsection}{Data Protection}{81}{section*.111}%
-\contentsline {subsubsection}{Network Security}{81}{section*.112}%
-\contentsline {subsection}{\numberline {7.7.7}AI Module Security}{81}{subsection.7.7.7}%
-\contentsline {subsubsection}{Model Security}{81}{section*.113}%
-\contentsline {subsubsection}{Data Protection}{81}{section*.114}%
-\contentsline {subsubsection}{API Security}{82}{section*.115}%
-\contentsline {section}{\numberline {7.8}Usability Testing}{82}{section.7.8}%
-\contentsline {subsection}{\numberline {7.8.1}Methods}{82}{subsection.7.8.1}%
-\contentsline {subsection}{\numberline {7.8.2}Findings}{82}{subsection.7.8.2}%
-\contentsline {subsubsection}{User Interface}{82}{section*.116}%
-\contentsline {subsubsection}{User Experience}{82}{section*.117}%
-\contentsline {section}{\numberline {7.9}Test Environment}{82}{section.7.9}%
-\contentsline {subsection}{\numberline {7.9.1}Hardware}{82}{subsection.7.9.1}%
-\contentsline {subsection}{\numberline {7.9.2}Software}{83}{subsection.7.9.2}%
-\contentsline {subsection}{\numberline {7.9.3}Tools}{83}{subsection.7.9.3}%
-\contentsline {section}{\numberline {7.10}Summary and Evaluation}{83}{section.7.10}%
-\contentsline {subsection}{\numberline {7.10.1}Test Results}{83}{subsection.7.10.1}%
-\contentsline {subsection}{\numberline {7.10.2}Confidence Level}{83}{subsection.7.10.2}%
-\contentsline {subsection}{\numberline {7.10.3}Known Limitations}{83}{subsection.7.10.3}%
-\contentsline {subsubsection}{Mobile}{83}{section*.118}%
-\contentsline {subsubsection}{AI Module}{84}{section*.119}%
-\contentsline {subsubsection}{Performance}{84}{section*.120}%
-\contentsline {subsection}{\numberline {7.10.4}Future Improvements}{84}{subsection.7.10.4}%
-\contentsline {subsubsection}{Enhanced Testing}{84}{section*.121}%
-\contentsline {subsubsection}{Performance}{84}{section*.122}%
-\contentsline {subsubsection}{Security}{84}{section*.123}%
-\contentsline {subsection}{\numberline {7.10.5}Security Test Cases}{84}{subsection.7.10.5}%
-\contentsline {subsubsection}{Web Security Test Cases}{84}{section*.124}%
-\contentsline {subsubsection}{Mobile Security Test Cases}{86}{section*.125}%
-\contentsline {subsubsection}{Backend Security Test Cases}{87}{section*.126}%
-\contentsline {subsection}{\numberline {7.10.6}Backend Security Implementation Details}{88}{subsection.7.10.6}%
-\contentsline {subsubsection}{API Security}{88}{section*.127}%
-\contentsline {subsubsection}{Database Security (MongoDB)}{89}{section*.128}%
-\contentsline {subsubsection}{Server Security}{89}{section*.129}%
-\contentsline {subsubsection}{Authentication}{89}{section*.130}%
-\contentsline {subsubsection}{Data Protection}{89}{section*.131}%
-\contentsline {subsubsection}{Logging \& Monitoring}{90}{section*.132}%
-\contentsline {chapter}{\numberline {8}Future Work and Conclusion}{91}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Introduction}{91}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Future Work}{91}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Conclusion}{92}{section.8.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{8}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivation}{8}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem Statement}{8}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Goals of the Project}{8}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Software Development Methodology}{9}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Literature Review}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Feature Matrix}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Comparison of Existing Solutions with the Proposed Solution}{11}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Requirement Engineering}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Surveys, Questionnaires, and Interviews}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Functional Requirements}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Non-Functional Requirements}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Use Case Diagram}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Use Case Tables}{17}{section.3.5}%
+\contentsline {subsubsection}{User Management}{17}{section*.11}%
+\contentsline {subsubsection}{Communication}{19}{section*.17}%
+\contentsline {subsubsection}{Resource Management}{22}{section*.26}%
+\contentsline {subsubsection}{Event Management}{23}{section*.29}%
+\contentsline {chapter}{\numberline {4}System Design}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{24}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Sequence Diagrams}{24}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}User Registration Process}{25}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}User Login Process}{26}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Password Recovery Process}{27}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Create Profile Process}{28}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Create Group Process}{29}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Direct Messaging Process}{30}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Start a Discussion Process}{31}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Upload Academic Material Process}{32}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}Create Event Process}{33}{subsection.4.2.9}%
+\contentsline {section}{\numberline {4.3}Class Diagram}{34}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Entity Relationship Diagram (ERD)}{34}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Data Dictionary}{35}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Users Table}{35}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Communities Table}{35}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Embedded Structures}{35}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Discussions Table}{36}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}Conversations Table}{36}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.6}Messages Table}{37}{subsection.4.5.6}%
+\contentsline {subsection}{\numberline {4.5.7}Embedded Structures}{37}{subsection.4.5.7}%
+\contentsline {subsubsection}{Discussion Attachments}{37}{section*.43}%
+\contentsline {subsubsection}{Discussion Replies}{37}{section*.44}%
+\contentsline {subsubsection}{Message Attachments}{37}{section*.45}%
+\contentsline {subsection}{\numberline {4.5.8}Roles Table}{38}{subsection.4.5.8}%
+\contentsline {subsection}{\numberline {4.5.9}Permission Bitmask Values}{38}{subsection.4.5.9}%
+\contentsline {subsection}{\numberline {4.5.10}Resources Table}{38}{subsection.4.5.10}%
+\contentsline {subsection}{\numberline {4.5.11}Embedded Structures}{39}{subsection.4.5.11}%
+\contentsline {subsubsection}{Resource Interactions}{39}{section*.46}%
+\contentsline {subsubsection}{Rating Structure}{39}{section*.47}%
+\contentsline {subsubsection}{Comment Structure}{39}{section*.48}%
+\contentsline {subsection}{\numberline {4.5.12}Events Table}{39}{subsection.4.5.12}%
+\contentsline {subsection}{\numberline {4.5.13}RSVPs Table}{40}{subsection.4.5.13}%
+\contentsline {subsection}{\numberline {4.5.14}Notifications Table}{40}{subsection.4.5.14}%
+\contentsline {subsection}{\numberline {4.5.15}Embedded Structures}{41}{subsection.4.5.15}%
+\contentsline {subsubsection}{Event Metadata}{41}{section*.49}%
+\contentsline {subsubsection}{Notification Metadata}{41}{section*.50}%
+\contentsline {section}{\numberline {4.6}Data Flow Diagrams (DFD)}{42}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Level 0 DFD (Context Diagram)}{42}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Level 1 DFD}{42}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Algorithms and Pseudocode}{43}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}User Authentication}{43}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}User Registration}{43}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Email Verification}{44}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Password Management}{44}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4.7.5}User Profile Management}{44}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4.7.6}Event Management}{45}{subsection.4.7.6}%
+\contentsline {subsection}{\numberline {4.7.7}View Events}{45}{subsection.4.7.7}%
+\contentsline {subsection}{\numberline {4.7.8}RSVP Management}{45}{subsection.4.7.8}%
+\contentsline {subsection}{\numberline {4.7.9}Calendar Integration}{46}{subsection.4.7.9}%
+\contentsline {subsection}{\numberline {4.7.10}Sync with Personal Calendars}{46}{subsection.4.7.10}%
+\contentsline {subsection}{\numberline {4.7.11}Resource Management}{46}{subsection.4.7.11}%
+\contentsline {subsection}{\numberline {4.7.12}Resource Interaction}{47}{subsection.4.7.12}%
+\contentsline {subsection}{\numberline {4.7.13}Categorized Content Upload}{47}{subsection.4.7.13}%
+\contentsline {subsection}{\numberline {4.7.14}Discussion Participation}{47}{subsection.4.7.14}%
+\contentsline {subsection}{\numberline {4.7.15}Direct Messaging}{47}{subsection.4.7.15}%
+\contentsline {subsection}{\numberline {4.7.16}AI-Powered Chatbot}{48}{subsection.4.7.16}%
+\contentsline {subsection}{\numberline {4.7.17}Event Recommendations}{48}{subsection.4.7.17}%
+\contentsline {subsection}{\numberline {4.7.18}Resource Recommendations}{48}{subsection.4.7.18}%
+\contentsline {subsection}{\numberline {4.7.19}Recommendation Engine}{48}{subsection.4.7.19}%
+\contentsline {subsection}{\numberline {4.7.20}Announcements Dashboard}{48}{subsection.4.7.20}%
+\contentsline {subsection}{\numberline {4.7.21}Mentorship Matching}{49}{subsection.4.7.21}%
+\contentsline {subsection}{\numberline {4.7.22}Real-Time Notifications}{49}{subsection.4.7.22}%
+\contentsline {section}{\numberline {4.8}Interface Design}{49}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Mobile Application Interfaces}{50}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Admin Dashboard Interfaces}{51}{subsection.4.8.2}%
+\contentsline {chapter}{\numberline {5}Implementation Aspects}{52}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Overall System Architecture}{52}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Layered Architecture}{52}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Data Flow}{53}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Architecture Justification}{53}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Tools and Technologies}{53}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Integration Highlights}{54}{subsection.5.2.1}%
+\contentsline {chapter}{\numberline {6}Implementation}{55}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{55}{section.6.1}%
+\contentsline {subsubsection}{System Architecture Highlights}{55}{section*.58}%
+\contentsline {subsection}{\numberline {6.1.1}GitHub Organization and Workflow}{55}{subsection.6.1.1}%
+\contentsline {subsubsection}{Organization Structure}{56}{section*.59}%
+\contentsline {subsubsection}{Development Workflow}{56}{section*.61}%
+\contentsline {section}{\numberline {6.2}Frontend Screens}{56}{section.6.2}%
+\contentsline {subsubsection}{Web Application Screens}{56}{section*.62}%
+\contentsline {subsubsection}{Mobile Application Screens}{57}{section*.64}%
+\contentsline {section}{\numberline {6.3}Project File Structure Overview}{58}{section.6.3}%
+\contentsline {subsubsection}{Backend (Node.js + TypeScript)}{58}{section*.66}%
+\contentsline {subsubsection}{Web Application (Next.js + Tailwind CSS)}{59}{section*.67}%
+\contentsline {subsubsection}{Mobile Application (Flutter + BLoC Pattern)}{59}{section*.68}%
+\contentsline {subsubsection}{AI/ML Services (Python + PyTorch + Flask)}{60}{section*.69}%
+\contentsline {section}{\numberline {6.4}Code Implementation Examples}{61}{section.6.4}%
+\contentsline {subsubsection}{Backend Implementation}{61}{section*.70}%
+\contentsline {paragraph}{User Repository}{61}{section*.71}%
+\contentsline {paragraph}{Authentication Service}{62}{section*.72}%
+\contentsline {paragraph}{Notification Service}{63}{section*.73}%
+\contentsline {subsubsection}{Web Frontend Implementation}{64}{section*.74}%
+\contentsline {paragraph}{Custom Hook Example}{64}{section*.75}%
+\contentsline {paragraph}{Form Component}{65}{section*.76}%
+\contentsline {paragraph}{API Client}{65}{section*.77}%
+\contentsline {subsubsection}{Mobile App Implementation}{66}{section*.78}%
+\contentsline {paragraph}{Login Bloc}{66}{section*.79}%
+\contentsline {paragraph}{Theme Provider}{67}{section*.80}%
+\contentsline {paragraph}{API Service}{67}{section*.81}%
+\contentsline {subsubsection}{AI/ML Implementation}{68}{section*.82}%
+\contentsline {paragraph}{Sentiment Analysis Model}{68}{section*.83}%
+\contentsline {paragraph}{Recommender System}{68}{section*.84}%
+\contentsline {paragraph}{Text Classification Model}{69}{section*.85}%
+\contentsline {chapter}{\numberline {7}Testing Report}{70}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introduction}{70}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Testing Strategy}{70}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Overall Approach}{71}{subsection.7.2.1}%
+\contentsline {subsubsection}{Automated Testing (70\% of test cases)}{71}{section*.86}%
+\contentsline {subsubsection}{Manual Testing (30\% of test cases)}{71}{section*.87}%
+\contentsline {subsection}{\numberline {7.2.2}Testing Levels}{71}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Prioritized Modules}{72}{subsection.7.2.3}%
+\contentsline {section}{\numberline {7.3}White Box Testing}{73}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Introduction}{73}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Objectives}{73}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Testing Techniques Used}{73}{subsection.7.3.3}%
+\contentsline {subsection}{\numberline {7.3.4}Tools Used}{74}{subsection.7.3.4}%
+\contentsline {subsection}{\numberline {7.3.5}Sample Test Cases}{74}{subsection.7.3.5}%
+\contentsline {subsection}{\numberline {7.3.6}Code Coverage Report}{76}{subsection.7.3.6}%
+\contentsline {subsubsection}{Backend Coverage}{76}{section*.88}%
+\contentsline {subsubsection}{Frontend Coverage}{76}{section*.89}%
+\contentsline {subsubsection}{Mobile App Coverage}{76}{section*.90}%
+\contentsline {subsubsection}{AI Module Coverage}{76}{section*.91}%
+\contentsline {subsection}{\numberline {7.3.7}Issues Identified and Fixes}{77}{subsection.7.3.7}%
+\contentsline {subsubsection}{Backend Issues}{77}{section*.92}%
+\contentsline {subsubsection}{Frontend Issues}{77}{section*.93}%
+\contentsline {subsubsection}{Mobile Issues}{77}{section*.94}%
+\contentsline {subsubsection}{AI Module Issues}{77}{section*.95}%
+\contentsline {section}{\numberline {7.4}Black Box Testing}{77}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Introduction}{77}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Objectives}{77}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Testing Techniques Used}{78}{subsection.7.4.3}%
+\contentsline {subsection}{\numberline {7.4.4}Tools Used}{78}{subsection.7.4.4}%
+\contentsline {subsection}{\numberline {7.4.5}Sample Test Cases}{79}{subsection.7.4.5}%
+\contentsline {subsection}{\numberline {7.4.6}Additional Test Cases}{80}{subsection.7.4.6}%
+\contentsline {section}{\numberline {7.5}Other Types of Testing Conducted}{81}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Unit Testing}{81}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}Integration Testing}{81}{subsection.7.5.2}%
+\contentsline {subsection}{\numberline {7.5.3}System Testing}{82}{subsection.7.5.3}%
+\contentsline {subsection}{\numberline {7.5.4}Acceptance Testing}{82}{subsection.7.5.4}%
+\contentsline {subsection}{\numberline {7.5.5}Functional Areas Covered}{82}{subsection.7.5.5}%
+\contentsline {subsection}{\numberline {7.5.6}Issues Identified and Fixes}{83}{subsection.7.5.6}%
+\contentsline {subsubsection}{Community Features}{83}{section*.96}%
+\contentsline {subsubsection}{Social Features}{83}{section*.97}%
+\contentsline {subsubsection}{Performance}{83}{section*.98}%
+\contentsline {section}{\numberline {7.6}Performance Testing}{83}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Tools Used}{83}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}Results}{84}{subsection.7.6.2}%
+\contentsline {subsubsection}{Web Application}{84}{section*.99}%
+\contentsline {subsubsection}{Mobile Application}{84}{section*.100}%
+\contentsline {subsubsection}{Backend API}{84}{section*.101}%
+\contentsline {subsubsection}{AI Module}{84}{section*.102}%
+\contentsline {section}{\numberline {7.7}Security Testing}{84}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Tools Used}{84}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}Findings}{84}{subsection.7.7.2}%
+\contentsline {subsubsection}{Authentication}{84}{section*.103}%
+\contentsline {subsubsection}{Data Protection}{85}{section*.104}%
+\contentsline {subsubsection}{API Security}{85}{section*.105}%
+\contentsline {subsection}{\numberline {7.7.3}Authentication Security}{85}{subsection.7.7.3}%
+\contentsline {subsubsection}{Password Policies}{85}{section*.106}%
+\contentsline {subsubsection}{Session Management}{85}{section*.107}%
+\contentsline {subsubsection}{Two-Factor Authentication}{85}{section*.108}%
+\contentsline {subsection}{\numberline {7.7.4}Data Security}{85}{subsection.7.7.4}%
+\contentsline {subsubsection}{Input Validation}{85}{section*.109}%
+\contentsline {subsubsection}{Data Encryption}{86}{section*.110}%
+\contentsline {subsubsection}{Access Control}{86}{section*.111}%
+\contentsline {subsection}{\numberline {7.7.5}API Security}{86}{subsection.7.7.5}%
+\contentsline {subsubsection}{Authentication}{86}{section*.112}%
+\contentsline {subsubsection}{Request Validation}{86}{section*.113}%
+\contentsline {subsubsection}{Response Security}{86}{section*.114}%
+\contentsline {subsection}{\numberline {7.7.6}Mobile Security}{87}{subsection.7.7.6}%
+\contentsline {subsubsection}{App Security}{87}{section*.115}%
+\contentsline {subsubsection}{Data Protection}{87}{section*.116}%
+\contentsline {subsubsection}{Network Security}{87}{section*.117}%
+\contentsline {subsection}{\numberline {7.7.7}AI Module Security}{87}{subsection.7.7.7}%
+\contentsline {subsubsection}{Model Security}{87}{section*.118}%
+\contentsline {subsubsection}{Data Protection}{87}{section*.119}%
+\contentsline {subsubsection}{API Security}{88}{section*.120}%
+\contentsline {section}{\numberline {7.8}Usability Testing}{88}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Methods}{88}{subsection.7.8.1}%
+\contentsline {subsection}{\numberline {7.8.2}Findings}{88}{subsection.7.8.2}%
+\contentsline {subsubsection}{User Interface}{88}{section*.121}%
+\contentsline {subsubsection}{User Experience}{88}{section*.122}%
+\contentsline {section}{\numberline {7.9}Test Environment}{88}{section.7.9}%
+\contentsline {subsection}{\numberline {7.9.1}Hardware}{88}{subsection.7.9.1}%
+\contentsline {subsection}{\numberline {7.9.2}Software}{89}{subsection.7.9.2}%
+\contentsline {subsection}{\numberline {7.9.3}Tools}{89}{subsection.7.9.3}%
+\contentsline {section}{\numberline {7.10}Summary and Evaluation}{89}{section.7.10}%
+\contentsline {subsection}{\numberline {7.10.1}Test Results}{89}{subsection.7.10.1}%
+\contentsline {subsection}{\numberline {7.10.2}Confidence Level}{89}{subsection.7.10.2}%
+\contentsline {subsection}{\numberline {7.10.3}Known Limitations}{89}{subsection.7.10.3}%
+\contentsline {subsubsection}{Mobile}{89}{section*.123}%
+\contentsline {subsubsection}{AI Module}{90}{section*.124}%
+\contentsline {subsubsection}{Performance}{90}{section*.125}%
+\contentsline {subsection}{\numberline {7.10.4}Future Improvements}{90}{subsection.7.10.4}%
+\contentsline {subsubsection}{Enhanced Testing}{90}{section*.126}%
+\contentsline {subsubsection}{Performance}{90}{section*.127}%
+\contentsline {subsubsection}{Security}{90}{section*.128}%
+\contentsline {subsection}{\numberline {7.10.5}Security Test Cases}{90}{subsection.7.10.5}%
+\contentsline {subsubsection}{Web Security Test Cases}{90}{section*.129}%
+\contentsline {subsubsection}{Mobile Security Test Cases}{92}{section*.130}%
+\contentsline {subsubsection}{Backend Security Test Cases}{93}{section*.131}%
+\contentsline {subsection}{\numberline {7.10.6}Backend Security Implementation Details}{94}{subsection.7.10.6}%
+\contentsline {subsubsection}{API Security}{94}{section*.132}%
+\contentsline {subsubsection}{Database Security (MongoDB)}{95}{section*.133}%
+\contentsline {subsubsection}{Server Security}{95}{section*.134}%
+\contentsline {subsubsection}{Authentication}{95}{section*.135}%
+\contentsline {subsubsection}{Data Protection}{95}{section*.136}%
+\contentsline {subsubsection}{Logging \& Monitoring}{96}{section*.137}%
+\contentsline {chapter}{\numberline {8}Future Work and Conclusion}{97}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introduction}{97}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Future Work}{97}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Conclusion}{98}{section.8.3}%
