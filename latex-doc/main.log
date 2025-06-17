@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.17)  17 JUN 2025 09:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.17)  17 JUN 2025 09:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1416,107 +1416,110 @@ put line 455.
 File: images/mobile_interface/Sign-up.png Graphic file (type png)
 <use images/mobile_interface/Sign-up.png>
 Package pdftex.def Info: images/mobile_interface/Sign-up.png  used on input lin
-e 819.
+e 820.
 (pdftex.def)             Requested size: 135.89174pt x 294.26166pt.
 <images/mobile_interface/Home.png, id=1062, 376.40625pt x 815.045pt>
 File: images/mobile_interface/Home.png Graphic file (type png)
 <use images/mobile_interface/Home.png>
 Package pdftex.def Info: images/mobile_interface/Home.png  used on input line 8
-25.
+26.
 (pdftex.def)             Requested size: 135.89174pt x 294.26166pt.
 <images/mobile_interface/Events.png, id=1063, 376.40625pt x 815.045pt>
 File: images/mobile_interface/Events.png Graphic file (type png)
 <use images/mobile_interface/Events.png>
 Package pdftex.def Info: images/mobile_interface/Events.png  used on input line
- 831.
+ 832.
 (pdftex.def)             Requested size: 135.89174pt x 294.26166pt.
 <images/mobile_interface/Resources.png, id=1064, 376.40625pt x 815.045pt>
 File: images/mobile_interface/Resources.png Graphic file (type png)
 <use images/mobile_interface/Resources.png>
 Package pdftex.def Info: images/mobile_interface/Resources.png  used on input l
-ine 840.
+ine 841.
 (pdftex.def)             Requested size: 135.89174pt x 294.26166pt.
 <images/mobile_interface/Chat.png, id=1065, 376.40625pt x 815.045pt>
 File: images/mobile_interface/Chat.png Graphic file (type png)
 <use images/mobile_interface/Chat.png>
 Package pdftex.def Info: images/mobile_interface/Chat.png  used on input line 8
-46.
+47.
 (pdftex.def)             Requested size: 135.89174pt x 294.26166pt.
 <images/mobile_interface/General-Profile.png, id=1066, 376.40625pt x 815.045pt>
 
 File: images/mobile_interface/General-Profile.png Graphic file (type png)
 <use images/mobile_interface/General-Profile.png>
 Package pdftex.def Info: images/mobile_interface/General-Profile.png  used on i
-nput line 852.
+nput line 853.
 (pdftex.def)             Requested size: 135.89174pt x 294.26166pt.
 
 
-[43]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[44]
-Overfull \vbox (8.26382pt too high) has occurred while \output is active []
-
-
-
-[45 <./images/mobile_interface/Sign-up.png> <./images/mobile_interface/Home.png
-> <./images/mobile_interface/Events.png> <./images/mobile_interface/Resources.p
-ng> <./images/mobile_interface/Chat.png> <./images/mobile_interface/General-Pro
-file.png>]
-<images/web_interface/Authentication-Sign_In.jpg, id=1090, 1445.4pt x 1027.84pt
+<images/web_interface/Authentication-Sign_In.jpg, id=1067, 1445.4pt x 1027.84pt
 >
 File: images/web_interface/Authentication-Sign_In.jpg Graphic file (type jpg)
 <use images/web_interface/Authentication-Sign_In.jpg>
 Package pdftex.def Info: images/web_interface/Authentication-Sign_In.jpg  used 
-on input line 866.
+on input line 867.
 (pdftex.def)             Requested size: 203.83417pt x 144.94742pt.
-<images/web_interface/Authentication-Sign_Up.jpg, id=1091, 1445.4pt x 1027.84pt
+<images/web_interface/Authentication-Sign_Up.jpg, id=1068, 1445.4pt x 1027.84pt
 >
 File: images/web_interface/Authentication-Sign_Up.jpg Graphic file (type jpg)
 <use images/web_interface/Authentication-Sign_Up.jpg>
 Package pdftex.def Info: images/web_interface/Authentication-Sign_Up.jpg  used 
-on input line 871.
+on input line 872.
 (pdftex.def)             Requested size: 203.83417pt x 144.94742pt.
-<images/web_interface/Overview.jpg, id=1092, 1445.4pt x 1027.84pt>
+
+
+[43]
+
+LaTeX Warning: Text page 44 contains only floats.
+
+
+
+[44 <./images/mobile_interface/Sign-up.png> <./images/mobile_interface/Home.png
+> <./images/mobile_interface/Events.png> <./images/mobile_interface/Resources.p
+ng> <./images/mobile_interface/Chat.png> <./images/mobile_interface/General-Pro
+file.png>]
+<images/web_interface/Overview.jpg, id=1088, 1445.4pt x 1027.84pt>
 File: images/web_interface/Overview.jpg Graphic file (type jpg)
 <use images/web_interface/Overview.jpg>
 Package pdftex.def Info: images/web_interface/Overview.jpg  used on input line 
-882.
+883.
 (pdftex.def)             Requested size: 203.83417pt x 144.94742pt.
-<images/web_interface/User-Management.jpg, id=1093, 1445.4pt x 1027.84pt>
+<images/web_interface/User-Management.jpg, id=1089, 1445.4pt x 1027.84pt>
 File: images/web_interface/User-Management.jpg Graphic file (type jpg)
 <use images/web_interface/User-Management.jpg>
 Package pdftex.def Info: images/web_interface/User-Management.jpg  used on inpu
-t line 887.
+t line 888.
 (pdftex.def)             Requested size: 203.83417pt x 144.94742pt.
-<images/web_interface/AI-training.jpg, id=1094, 1445.4pt x 1027.84pt>
+<images/web_interface/AI-training.jpg, id=1090, 1445.4pt x 1027.84pt>
 File: images/web_interface/AI-training.jpg Graphic file (type jpg)
 <use images/web_interface/AI-training.jpg>
 Package pdftex.def Info: images/web_interface/AI-training.jpg  used on input li
-ne 898.
+ne 899.
 (pdftex.def)             Requested size: 203.83417pt x 144.94742pt.
-<images/web_interface/Event-Management-cal.jpg, id=1095, 1445.4pt x 1047.915pt>
+<images/web_interface/Event-Management-cal.jpg, id=1091, 1445.4pt x 1047.915pt>
 
 File: images/web_interface/Event-Management-cal.jpg Graphic file (type jpg)
 <use images/web_interface/Event-Management-cal.jpg>
 Package pdftex.def Info: images/web_interface/Event-Management-cal.jpg  used on
- input line 903.
+ input line 904.
 (pdftex.def)             Requested size: 203.83417pt x 147.77841pt.
 ) (./chapters/chapter5_implementation_aspects.tex
 
-[46 <./images/web_interface/Authentication-Sign_In.jpg> <./images/web_interface
+[45 <./images/web_interface/Authentication-Sign_In.jpg> <./images/web_interface
 /Authentication-Sign_Up.jpg> <./images/web_interface/Overview.jpg> <./images/we
 b_interface/User-Management.jpg> <./images/web_interface/AI-training.jpg> <./im
 ages/web_interface/Event-Management-cal.jpg>]
 Chapter 5.
 
 
-[47
+[46
 
 ]
 
-[48]) (./chapters/chapter6_implementation.tex
+[47]) (./chapters/chapter6_implementation.tex
 
-[49]
+[48]
 Chapter 6.
 
 Overfull \hbox (3.86203pt too wide) in paragraph at lines 16--17
@@ -1526,10 +1529,10 @@ led with Tail-wind CSS. Uses TanStack
 
 
 
-[50
+[49
 
 ]
-<images/github-org-overview.png, id=1127, 1728.4575pt x 1296.845pt>
+<images/github-org-overview.png, id=1123, 1728.4575pt x 1296.845pt>
 File: images/github-org-overview.png Graphic file (type png)
 <use images/github-org-overview.png>
 Package pdftex.def Info: images/github-org-overview.png  used on input line 43.
@@ -1537,15 +1540,15 @@ Package pdftex.def Info: images/github-org-overview.png  used on input line 43.
 (pdftex.def)             Requested size: 362.37569pt x 271.87057pt.
 
 
-[51 <./images/github-org-overview.png>]
-<images/front_end_screens/dashboard-overview.png, id=1136, 1445.4pt x 1027.84pt
+[50 <./images/github-org-overview.png>]
+<images/front_end_screens/dashboard-overview.png, id=1132, 1445.4pt x 1027.84pt
 >
 File: images/front_end_screens/dashboard-overview.png Graphic file (type png)
 <use images/front_end_screens/dashboard-overview.png>
 Package pdftex.def Info: images/front_end_screens/dashboard-overview.png  used 
 on input line 74.
 (pdftex.def)             Requested size: 203.83417pt x 144.94742pt.
-<images/front_end_screens/dashboard-events-managment.png, id=1137, 1445.4pt x 1
+<images/front_end_screens/dashboard-events-managment.png, id=1133, 1445.4pt x 1
 047.915pt>
 File: images/front_end_screens/dashboard-events-managment.png Graphic file (typ
 e png)
@@ -1553,7 +1556,7 @@ e png)
 Package pdftex.def Info: images/front_end_screens/dashboard-events-managment.pn
 g  used on input line 81.
 (pdftex.def)             Requested size: 203.83417pt x 147.77841pt.
-<images/front_end_screens/dashboard-community-managment.png, id=1138, 1445.4pt 
+<images/front_end_screens/dashboard-community-managment.png, id=1134, 1445.4pt 
 x 1027.84pt>
 File: images/front_end_screens/dashboard-community-managment.png Graphic file (
 type png)
@@ -1561,7 +1564,7 @@ type png)
 Package pdftex.def Info: images/front_end_screens/dashboard-community-managment
 .png  used on input line 88.
 (pdftex.def)             Requested size: 203.83417pt x 144.94742pt.
-<images/front_end_screens/dashboard-ai-training.png, id=1139, 1445.4pt x 1027.8
+<images/front_end_screens/dashboard-ai-training.png, id=1135, 1445.4pt x 1027.8
 4pt>
 File: images/front_end_screens/dashboard-ai-training.png Graphic file (type png
 )
@@ -1569,27 +1572,27 @@ File: images/front_end_screens/dashboard-ai-training.png Graphic file (type png
 Package pdftex.def Info: images/front_end_screens/dashboard-ai-training.png  us
 ed on input line 95.
 (pdftex.def)             Requested size: 203.83417pt x 144.94742pt.
-<images/front_end_screens/mobile-home.png, id=1140, 376.40625pt x 815.045pt>
+<images/front_end_screens/mobile-home.png, id=1136, 376.40625pt x 815.045pt>
 File: images/front_end_screens/mobile-home.png Graphic file (type png)
 <use images/front_end_screens/mobile-home.png>
 Package pdftex.def Info: images/front_end_screens/mobile-home.png  used on inpu
 t line 121.
 (pdftex.def)             Requested size: 97.05348pt x 210.15314pt.
-<images/front_end_screens/mobile-events.png, id=1141, 1129.21875pt x 2445.135pt
+<images/front_end_screens/mobile-events.png, id=1137, 1129.21875pt x 2445.135pt
 >
 File: images/front_end_screens/mobile-events.png Graphic file (type png)
 <use images/front_end_screens/mobile-events.png>
 Package pdftex.def Info: images/front_end_screens/mobile-events.png  used on in
 put line 128.
 (pdftex.def)             Requested size: 97.04199pt x 210.12827pt.
-<images/front_end_screens/mobile-searching.png, id=1142, 752.8125pt x 1630.09pt
+<images/front_end_screens/mobile-searching.png, id=1138, 752.8125pt x 1630.09pt
 >
 File: images/front_end_screens/mobile-searching.png Graphic file (type png)
 <use images/front_end_screens/mobile-searching.png>
 Package pdftex.def Info: images/front_end_screens/mobile-searching.png  used on
  input line 135.
 (pdftex.def)             Requested size: 97.05348pt x 210.15314pt.
-<images/front_end_screens/mobile-chats.png, id=1143, 376.40625pt x 815.045pt>
+<images/front_end_screens/mobile-chats.png, id=1139, 376.40625pt x 815.045pt>
 File: images/front_end_screens/mobile-chats.png Graphic file (type png)
 <use images/front_end_screens/mobile-chats.png>
 Package pdftex.def Info: images/front_end_screens/mobile-chats.png  used on inp
@@ -1597,7 +1600,7 @@ ut line 142.
 (pdftex.def)             Requested size: 97.05348pt x 210.15314pt.
 
 
-[52 <./images/front_end_screens/dashboard-overview.png> <./images/front_end_scr
+[51 <./images/front_end_screens/dashboard-overview.png> <./images/front_end_scr
 eens/dashboard-events-managment.png> <./images/front_end_screens/dashboard-comm
 unity-managment.png> <./images/front_end_screens/dashboard-ai-training.png>]
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -2991,7 +2994,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[53 <./images/front_end_screens/mobile-home.png> <./images/front_end_screens/mo
+[52 <./images/front_end_screens/mobile-home.png> <./images/front_end_screens/mo
 bile-events.png> <./images/front_end_screens/mobile-searching.png> <./images/fr
 ont_end_screens/mobile-chats.png>]
 
@@ -4436,7 +4439,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[54]
+[53]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (â\lst@FillFixed@\lst@EC”).
 
@@ -6251,6 +6254,8 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
+[54]
+
 [55]
 
 [56]
@@ -6263,1491 +6268,188 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 [60]
 
-[61]
-
-[62] (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+[61] (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 
-[63]) (./chapters/chapter7_testing.tex
+[62]) (./chapters/chapter7_testing.tex
 
-[64]
+[63]
 Chapter 7.
 
 
-[65
+[64
 
 ]
+
+[65]
 
 [66]
 
 [67]
-
-[68]
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/bx/n/12 Test
+Overfull \hbox (4.02682pt too wide) in paragraph at lines 204--205
+ []|\T1/cmr/bx/n/10 Result| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-\T1/cmr/bx/n/12 Case
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/bx/n/12 Function
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/bx/n/12 Expected
- []
-
-
-Overfull \hbox (66.71379pt too wide) in alignment at lines 282--282
+Overfull \hbox (24.03465pt too wide) in alignment at lines 201--206
  [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/bx/n/12 Test
+Overfull \hbox (4.02682pt too wide) in paragraph at lines 211--212
+ []|\T1/cmr/bx/n/10 Result| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-\T1/cmr/bx/n/12 Case
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/bx/n/12 Function
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/bx/n/12 Expected
- []
-
-
-Overfull \hbox (66.71379pt too wide) in alignment at lines 282--282
+Overfull \hbox (24.03465pt too wide) in alignment at lines 206--213
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (66.71379pt too wide) in alignment at lines 282--282
+Overfull \hbox (24.03465pt too wide) in alignment at lines 213--216
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (66.71379pt too wide) in alignment at lines 282--282
+Overfull \hbox (24.03465pt too wide) in alignment at lines 216--219
  [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
+Overfull \hbox (2.94359pt too wide) in paragraph at lines 221--221
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
-Overfull \hbox (14.40881pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Authentication| 
+Overfull \hbox (2.94359pt too wide) in paragraph at lines 223--223
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
-Underfull \hbox (badness 4913) in paragraph at lines 282--282
-\T1/cmr/m/n/12 tional email,
+Overfull \hbox (2.94359pt too wide) in paragraph at lines 225--225
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Account cre-
+Overfull \hbox (2.94359pt too wide) in paragraph at lines 227--227
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Account cre-
+Overfull \hbox (2.94359pt too wide) in paragraph at lines 229--229
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
+Overfull \hbox (2.94359pt too wide) in paragraph at lines 231--231
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
-Overfull \hbox (14.40881pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Authentication| 
+Overfull \hbox (2.94359pt too wide) in paragraph at lines 233--233
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Invalid email
+Overfull \hbox (1.87044pt too wide) in paragraph at lines 233--233
+ []|\T1/cmr/m/n/10 passwordRecovery()| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
+Overfull \hbox (2.94359pt too wide) in paragraph at lines 235--235
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
+Overfull \hbox (1.87044pt too wide) in paragraph at lines 235--235
+ []|\T1/cmr/m/n/10 passwordRecovery()| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
+Overfull \hbox (4.95302pt too wide) in paragraph at lines 245--245
+ []|\T1/cmr/m/n/10 sendDirectMessage()| 
  []
 
 
-Overfull \hbox (14.40881pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Authentication| 
+Overfull \hbox (4.95302pt too wide) in paragraph at lines 247--247
+ []|\T1/cmr/m/n/10 sendDirectMessage()| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Non-
+Overfull \hbox (1.34279pt too wide) in paragraph at lines 265--265
+ []|\T1/cmr/m/n/10 replyToDiscussion()| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-\T1/cmr/m/n/12 institutional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (14.40881pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Authentication| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (14.40881pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Authentication| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Invalid cre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (14.40881pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Authentication| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Multiple
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-\T1/cmr/m/n/12 failed at-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Account
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Account
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (14.40881pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Authentication| 
- []
-
-
-Overfull \hbox (31.29443pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 passwordRecovery()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Reset link
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Reset link
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (14.40881pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Authentication| 
- []
-
-
-Overfull \hbox (31.29443pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 passwordRecovery()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (2.12247pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 createProfile()| 
- []
-
-
-Underfull \hbox (badness 8132) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Valid pro-file
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Profile cre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Profile cre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (2.12247pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 createProfile()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Invalid file
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (7.01709pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 updateProfile()| 
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Valid up-date
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Profile up-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Profile up-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (7.01709pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 updateProfile()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Empty re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (34.94498pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 sendDirectMessage()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (34.94498pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 sendDirectMessage()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (26.84143pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 createGroupChat()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Valid group
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Group cre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Group cre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (26.84143pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 createGroupChat()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Duplicate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (1.38931pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 createGroup()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Valid group
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Group cre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Group cre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (1.38931pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 createGroup()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Invalid per-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (9.87335pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 manageGroup()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Valid man-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-\T1/cmr/m/n/12 age-ment
- []
-
-
-Underfull \hbox (badness 6220) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Changes ap-
- []
-
-
-Underfull \hbox (badness 6220) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Changes ap-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (15.76207pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 startDiscussion()| 
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Valid dis-cus-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Discussion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Discussion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (30.70703pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 replyToDiscussion()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (7.86539pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 pinDiscussion()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Discussion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Discussion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (18.50314pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 uploadResource()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Upload suc-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Upload suc-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (18.50314pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 uploadResource()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Unsupported
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Error re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (49.82463pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 interactWithResource()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Interaction
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Interaction
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 Valid event
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (3.16661pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 rsvpToEvent()| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 RSVP
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 RSVP
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 TC-
- []
-
-
-Overfull \hbox (20.29991pt too wide) in paragraph at lines 282--282
-[]|\T1/cmr/m/n/12 syncToCalendar()| 
- []
-
-
-Overfull \hbox (66.71379pt too wide) in alignment at lines 282--282
+Overfull \hbox (24.03465pt too wide) in alignment at lines 219--281
  [] [] [] [] [] [] [] 
  []
 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.282 }
-       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.282 }
-       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.282 }
-       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.282 }
-       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Argument of \LT@max@sel has an extra }.
-<inserted text> 
-                \par 
-l.282 }
-       
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \LT@max@sel was complete.
-<to be read again> 
-                   \par 
-l.282 }
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! LaTeX Error: \begin{document} ended by \end{longtable}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.282 }
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-\end  ...end#1\endcsname \@checkend {#1}\endgroup 
-                                                  \UseHook {env/#1/after}\if...
-l.282 }
-       
-Things are pretty mixed up, but I think the worst is over.
-
-! Extra \endgroup.
-\color@endgroup ->\endgraf \@endpefalse \endgroup 
-                                                  
-l.282 }
-       
-Things are pretty mixed up, but I think the worst is over.
-
-! Too many }'s.
-\@begin@tempboxa ...begingroup #2\color@endgroup }
-                                                  \def \width {\wd \@tempbox...
-l.282 }
-       
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-! Package graphics Error: Division by 0.
-
-See the graphics package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.282 }
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-\Gscale@box@dd ...\box \@tempboxa }\@end@tempboxa 
-                                                  
-l.282 }
-       
-Things are pretty mixed up, but I think the worst is over.
-
-
-
-[69]
+[68] [69]
 
 [70]
 
 [71]
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
-[]|\T1/cmr/bx/n/10 Test
+
+[72]
+Overfull \hbox (4.02682pt too wide) in paragraph at lines 434--435
+ []|\T1/cmr/bx/n/10 Result| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
-[]|\T1/cmr/bx/n/10 Expected
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
-[]|\T1/cmr/bx/n/10 Actual Out-
- []
-
-
-Overfull \hbox (66.71379pt too wide) in alignment at lines 431--436
- [] [] [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--441
-[]|\T1/cmr/bx/n/10 Test
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--441
-[]|\T1/cmr/bx/n/10 Expected
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--441
-[]|\T1/cmr/bx/n/10 Actual Out-
- []
-
-
-Overfull \hbox (66.71379pt too wide) in alignment at lines 436--443
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (66.71379pt too wide) in alignment at lines 443--446
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (66.71379pt too wide) in alignment at lines 446--449
- [] [] [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
-[]|\T1/cmr/m/n/10 TC-BB-
+Overfull \hbox (4.02682pt too wide) in paragraph at lines 441--442
+ []|\T1/cmr/bx/n/10 Result| 
  []
 
 
 Overfull \hbox (2.94359pt too wide) in paragraph at lines 451--451
-[]|\T1/cmr/m/n/10 Authentication| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
-[]|\T1/cmr/m/n/10 Valid in-sti-tu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
-\T1/cmr/m/n/10 tional email,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 453--453
-[]|\T1/cmr/m/n/10 TC-BB-
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
 Overfull \hbox (2.94359pt too wide) in paragraph at lines 453--453
-[]|\T1/cmr/m/n/10 Authentication| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 453--453
-[]|\T1/cmr/m/n/10 Invalid email
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
-[]|\T1/cmr/m/n/10 TC-BB-
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
 Overfull \hbox (2.94359pt too wide) in paragraph at lines 455--455
-[]|\T1/cmr/m/n/10 Authentication| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
-[]|\T1/cmr/m/n/10 Non-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
-\T1/cmr/m/n/10 institutional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
-[]|\T1/cmr/m/n/10 TC-BB-
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
 Overfull \hbox (2.94359pt too wide) in paragraph at lines 457--457
-[]|\T1/cmr/m/n/10 Authentication| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
-[]|\T1/cmr/m/n/10 Valid cre-den-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
-[]|\T1/cmr/m/n/10 TC-BB-
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
 Overfull \hbox (2.94359pt too wide) in paragraph at lines 459--459
-[]|\T1/cmr/m/n/10 Authentication| 
- []
-
-
-Underfull \hbox (badness 5652) in paragraph at lines 459--459
-[]|\T1/cmr/m/n/10 Invalid cre-den-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
-[]|\T1/cmr/m/n/10 TC-BB-
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
 Overfull \hbox (2.94359pt too wide) in paragraph at lines 461--461
-[]|\T1/cmr/m/n/10 Authentication| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
-[]|\T1/cmr/m/n/10 Multiple failed
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 463--463
-[]|\T1/cmr/m/n/10 TC-BB-
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
 Overfull \hbox (2.94359pt too wide) in paragraph at lines 463--463
-[]|\T1/cmr/m/n/10 Authentication| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 463--463
-[]|\T1/cmr/m/n/10 Password Re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 465--465
-[]|\T1/cmr/m/n/10 TC-BB-
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
 
 Overfull \hbox (2.94359pt too wide) in paragraph at lines 465--465
-[]|\T1/cmr/m/n/10 Authentication| 
+ []|\T1/cmr/m/n/10 Authentication| 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 465--465
-[]|\T1/cmr/m/n/10 Password Re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 467--467
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 467--467
-[]|\T1/cmr/m/n/10 Valid pro-file
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
-[]|\T1/cmr/m/n/10 Valid up-date
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 475--475
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--477
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--477
-[]|\T1/cmr/m/n/10 Large at-tach-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 479--479
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 479--479
-[]|\T1/cmr/m/n/10 Valid group
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--481
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 3601) in paragraph at lines 485--485
-[]|\T1/cmr/m/n/10 Invalid per-mis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 6808) in paragraph at lines 487--487
-[]|\T1/cmr/m/n/10 Valid join re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--489
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
-[]|\T1/cmr/m/n/10 Valid man-age-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 4872) in paragraph at lines 493--493
-[]|\T1/cmr/m/n/10 Discussion cre-
- []
-
-
-Underfull \hbox (badness 4872) in paragraph at lines 493--493
-[]|\T1/cmr/m/n/10 Discussion cre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 497--497
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 497--497
-[]|\T1/cmr/m/n/10 Valid pin re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 497--497
-[]|\T1/cmr/m/n/10 Discussion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 497--497
-[]|\T1/cmr/m/n/10 Discussion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--499
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--499
-[]|\T1/cmr/m/n/10 Upload Re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
-[]|\T1/cmr/m/n/10 Upload Re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
-[]|\T1/cmr/m/n/10 Unsupported
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--503
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--503
-[]|\T1/cmr/m/n/10 Interact with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--503
-[]|\T1/cmr/m/n/10 Valid in-ter-ac-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--503
-[]|\T1/cmr/m/n/10 Interaction
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--503
-[]|\T1/cmr/m/n/10 Interaction
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 505--505
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 507--507
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 509--509
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 3386) in paragraph at lines 509--509
-[]|\T1/cmr/m/n/10 Valid sync re-
- []
-
-
-Overfull \hbox (66.71379pt too wide) in alignment at lines 449--511
- [] [] [] [] [] [] [] 
- []
-
-[72] [73]
-Underfull \hbox (badness 10000) in paragraph at lines 520--520
-[]|\T1/cmr/bx/n/10 Test
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 520--520
-[]|\T1/cmr/bx/n/10 Expected
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 520--520
-[]|\T1/cmr/bx/n/10 Actual Out-
- []
-
-
-Overfull \hbox (66.71379pt too wide) in alignment at lines 517--522
- [] [] [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
-[]|\T1/cmr/bx/n/10 Test
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
-[]|\T1/cmr/bx/n/10 Expected
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
-[]|\T1/cmr/bx/n/10 Actual Out-
- []
-
-
-Overfull \hbox (66.71379pt too wide) in alignment at lines 522--529
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (66.71379pt too wide) in alignment at lines 529--532
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (66.71379pt too wide) in alignment at lines 532--535
- [] [] [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 539--539
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
-[]|\T1/cmr/m/n/10 Comment up-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
-[]|\T1/cmr/m/n/10 Comment up-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 545--545
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 545--545
-[]|\T1/cmr/m/n/10 Comment re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 545--545
-[]|\T1/cmr/m/n/10 Comment re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
-[]|\T1/cmr/m/n/10 Report com-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 549--549
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--551
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 553--553
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 553--553
-[]|\T1/cmr/m/n/10 Create com-mu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 3503) in paragraph at lines 557--557
-[]|\T1/cmr/m/n/10 Delete com-mu-
- []
-
-
-Underfull \hbox (badness 2285) in paragraph at lines 557--557
-[]|\T1/cmr/m/n/10 Community re-
- []
-
-
-Underfull \hbox (badness 2285) in paragraph at lines 557--557
-[]|\T1/cmr/m/n/10 Community re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--563
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--565
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 569--569
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 571--571
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 571--571
-[]|\T1/cmr/m/n/10 Resource up-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 571--571
-[]|\T1/cmr/m/n/10 Resource up-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 573--573
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 573--573
-[]|\T1/cmr/m/n/10 Resource re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 573--573
-[]|\T1/cmr/m/n/10 Resource re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 577--577
-[]|\T1/cmr/m/n/10 TC-BB-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 577--577
-[]|\T1/cmr/m/n/10 Send no-ti-fi-ca-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 577--577
-[]|\T1/cmr/m/n/10 Notification
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 577--577
-[]|\T1/cmr/m/n/10 Notification
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 579--579
-[]|\T1/cmr/m/n/10 TC-BB-
+[73]
+Overfull \hbox (4.02682pt too wide) in paragraph at lines 520--521
+ []|\T1/cmr/bx/n/10 Result| 
  []
 
 
-Overfull \hbox (66.71379pt too wide) in alignment at lines 535--581
- [] [] [] [] [] [] [] 
+Overfull \hbox (4.02682pt too wide) in paragraph at lines 527--528
+ []|\T1/cmr/bx/n/10 Result| 
  []
 
 [74]
@@ -7769,493 +6471,28 @@ Overfull \hbox (66.71379pt too wide) in alignment at lines 535--581
 [82]
 
 [83]
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1017
-[]|\T1/cmr/bx/n/10 Test
+Overfull \hbox (3.38809pt too wide) in paragraph at lines 1017--1018
+ []|\T1/cmr/bx/n/10 Status| 
  []
 
 
-Overfull \hbox (20.1706pt too wide) in alignment at lines 1014--1019
- [] [] [] [] [] [] 
+Overfull \hbox (3.38809pt too wide) in paragraph at lines 1024--1025
+ []|\T1/cmr/bx/n/10 Status| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1024--1024
-[]|\T1/cmr/bx/n/10 Test
+Overfull \hbox (8.63405pt too wide) in paragraph at lines 1070--1070
+ []|\T1/cmr/m/n/10 Authentication 
  []
 
 
-Overfull \hbox (20.1706pt too wide) in alignment at lines 1019--1026
- [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (20.1706pt too wide) in alignment at lines 1026--1029
- [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (20.1706pt too wide) in alignment at lines 1029--1032
- [] [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1034--1034
-[]|\T1/cmr/m/n/10 A01:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1034--1034
-\T1/cmr/m/n/10 Broken Ac-cess
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1036
-[]|\T1/cmr/m/n/10 A01:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1036
-\T1/cmr/m/n/10 Broken Ac-cess
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1038
-[]|\T1/cmr/m/n/10 A01:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1038
-\T1/cmr/m/n/10 Broken Ac-cess
- []
-
-
-Underfull \hbox (badness 5119) in paragraph at lines 1038--1038
-[]|\T1/cmr/m/n/10 Test re-source ac-cess
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1040
-[]|\T1/cmr/m/n/10 A02:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1040
-\T1/cmr/m/n/10 Cryptographic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
-[]|\T1/cmr/m/n/10 A02:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
-\T1/cmr/m/n/10 Cryptographic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1044
-[]|\T1/cmr/m/n/10 A02:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1044
-\T1/cmr/m/n/10 Cryptographic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1044
-[]|\T1/cmr/m/n/10 Keys prop-erly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1044
-[]|\T1/cmr/m/n/10 Keys prop-erly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1046
-[]|\T1/cmr/m/n/10 A03:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1048
-[]|\T1/cmr/m/n/10 A03:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1050
-[]|\T1/cmr/m/n/10 A03:2021-
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 1050--1050
-[]|\T1/cmr/m/n/10 Test com-mand in-jec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1052--1052
-[]|\T1/cmr/m/n/10 A04:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1054--1054
-[]|\T1/cmr/m/n/10 A04:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1056--1056
-[]|\T1/cmr/m/n/10 A04:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1056--1056
-[]|\T1/cmr/m/n/10 Single ac-tive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1056--1056
-[]|\T1/cmr/m/n/10 Single ac-tive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1058--1058
-[]|\T1/cmr/m/n/10 A05:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1058--1058
-\T1/cmr/m/n/10 Security Mis-
- []
-
-
-Underfull \hbox (badness 2717) in paragraph at lines 1058--1058
-[]|\T1/cmr/m/n/10 Test de-fault se-cu-rity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1058--1058
-[]|\T1/cmr/m/n/10 Headers prop-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1058--1058
-[]|\T1/cmr/m/n/10 Headers prop-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1060
-[]|\T1/cmr/m/n/10 A05:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1060
-\T1/cmr/m/n/10 Security Mis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1060
-[]|\T1/cmr/m/n/10 Proper CORS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1060
-[]|\T1/cmr/m/n/10 Proper CORS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1062--1062
-[]|\T1/cmr/m/n/10 A05:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1062--1062
-\T1/cmr/m/n/10 Security Mis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1062--1062
-[]|\T1/cmr/m/n/10 Generic er-ror
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1062--1062
-[]|\T1/cmr/m/n/10 Generic er-ror
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1064--1064
-[]|\T1/cmr/m/n/10 A06:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1064--1064
-\T1/cmr/m/n/10 Vulnerable
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1064--1064
-[]|\T1/cmr/m/n/10 No vul-ner-a-ble
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1064--1064
-[]|\T1/cmr/m/n/10 No vul-ner-a-ble
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1066--1066
-[]|\T1/cmr/m/n/10 A06:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1066--1066
-\T1/cmr/m/n/10 Vulnerable
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1066--1066
-[]|\T1/cmr/m/n/10 Test third-party
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]|\T1/cmr/m/n/10 A06:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\T1/cmr/m/n/10 Vulnerable
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]|\T1/cmr/m/n/10 Framework
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]|\T1/cmr/m/n/10 Framework
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1070
-[]|\T1/cmr/m/n/10 A07:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1070
-\T1/cmr/m/n/10 Identification
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1070
-[]|\T1/cmr/m/n/10 Test au-then-ti-ca-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1070
-[]|\T1/cmr/m/n/10 Authentication
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1070
-[]|\T1/cmr/m/n/10 Authentication
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1072--1072
-[]|\T1/cmr/m/n/10 A07:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1072--1072
-\T1/cmr/m/n/10 Identification
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1072--1072
-[]|\T1/cmr/m/n/10 Session in-val-i-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1072--1072
-[]|\T1/cmr/m/n/10 Session in-val-i-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1074
-[]|\T1/cmr/m/n/10 A07:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1074
-\T1/cmr/m/n/10 Identification
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1074
-[]|\T1/cmr/m/n/10 Secure re-set
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1074
-[]|\T1/cmr/m/n/10 Secure re-set
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1076--1076
-[]|\T1/cmr/m/n/10 A08:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1076--1076
-\T1/cmr/m/n/10 Software and
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 1076--1076
-[]|\T1/cmr/m/n/10 Test file up-load in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1078
-[]|\T1/cmr/m/n/10 A08:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1078
-\T1/cmr/m/n/10 Software and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1078
-[]|\T1/cmr/m/n/10 Packages ver-i-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1078
-[]|\T1/cmr/m/n/10 Packages ver-i-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1080
-[]|\T1/cmr/m/n/10 A08:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1080
-\T1/cmr/m/n/10 Software and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1080
-[]|\T1/cmr/m/n/10 Data in-tegrity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1080
-[]|\T1/cmr/m/n/10 Data in-tegrity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1082--1082
-[]|\T1/cmr/m/n/10 A09:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1082--1082
-\T1/cmr/m/n/10 Logging Fail-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1084--1084
-[]|\T1/cmr/m/n/10 A09:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1084--1084
-\T1/cmr/m/n/10 Logging Fail-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1084--1084
-[]|\T1/cmr/m/n/10 Audit trail
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1084--1084
-[]|\T1/cmr/m/n/10 Audit trail
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1086--1086
-[]|\T1/cmr/m/n/10 A09:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1086--1086
-\T1/cmr/m/n/10 Logging Fail-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1088--1088
-[]|\T1/cmr/m/n/10 A10:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1088--1088
-\T1/cmr/m/n/10 Server-Side
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1090--1090
-[]|\T1/cmr/m/n/10 A10:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1090--1090
-\T1/cmr/m/n/10 Server-Side
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1092--1092
-[]|\T1/cmr/m/n/10 A10:2021-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1092--1092
-\T1/cmr/m/n/10 Server-Side
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1092--1092
-[]|\T1/cmr/m/n/10 Access re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1092--1092
-[]|\T1/cmr/m/n/10 Access re-
- []
-
-
-Overfull \hbox (20.1706pt too wide) in alignment at lines 1032--1094
- [] [] [] [] [] [] 
+Overfull \hbox (8.63405pt too wide) in paragraph at lines 1070--1070
+ []|\T1/cmr/m/n/10 Authentication 
  []
 
 [84] [85]
-Underfull \hbox (badness 10000) in paragraph at lines 1103--1103
-[]|\T1/cmr/bx/n/10 Test
- []
-
-
 Overfull \hbox (20.1706pt too wide) in alignment at lines 1100--1105
  [] [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1110
-[]|\T1/cmr/bx/n/10 Test
  []
 
 
@@ -8274,193 +6511,13 @@ Overfull \hbox (20.1706pt too wide) in alignment at lines 1115--1118
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 1120--1120
-[]|\T1/cmr/m/n/10 M1: Im-proper
- []
-
-
-Underfull \hbox (badness 5726) in paragraph at lines 1120--1120
-[]|\T1/cmr/m/n/10 Test An-droid in-tent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1120--1120
-[]|\T1/cmr/m/n/10 Intents val-i-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1120--1120
-[]|\T1/cmr/m/n/10 Intents val-i-
- []
-
-
-Underfull \hbox (badness 2065) in paragraph at lines 1122--1122
-[]|\T1/cmr/m/n/10 M1: Im-proper
- []
-
-
-Underfull \hbox (badness 7151) in paragraph at lines 1124--1124
-[]|\T1/cmr/m/n/10 M2: In-se-cure
- []
-
-
-Underfull \hbox (badness 7151) in paragraph at lines 1126--1126
-[]|\T1/cmr/m/n/10 M2: In-se-cure
- []
-
-
-Underfull \hbox (badness 7151) in paragraph at lines 1128--1128
-[]|\T1/cmr/m/n/10 M3: In-se-cure
- []
-
-
-Underfull \hbox (badness 7151) in paragraph at lines 1130--1130
-[]|\T1/cmr/m/n/10 M3: In-se-cure
- []
-
-
-Underfull \hbox (badness 7151) in paragraph at lines 1132--1132
-[]|\T1/cmr/m/n/10 M4: In-se-cure
- []
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 1132--1132
-[]|\T1/cmr/m/n/10 Test ses-sion man-age-
- []
-
-
-Underfull \hbox (badness 7151) in paragraph at lines 1134--1134
-[]|\T1/cmr/m/n/10 M4: In-se-cure
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1134--1134
-[]|\T1/cmr/m/n/10 Passwords
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1134--1134
-[]|\T1/cmr/m/n/10 Passwords
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1136--1136
-[]|\T1/cmr/m/n/10 Algorithms
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1136--1136
-[]|\T1/cmr/m/n/10 Algorithms
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1138--1138
-[]|\T1/cmr/m/n/10 Keys man-aged
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1138--1138
-[]|\T1/cmr/m/n/10 Keys man-aged
- []
-
-
-Underfull \hbox (badness 7151) in paragraph at lines 1140--1140
-[]|\T1/cmr/m/n/10 M6: In-se-cure
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 1140--1140
-[]|\T1/cmr/m/n/10 Test per-mis-sion han-
- []
-
-
-Underfull \hbox (badness 7151) in paragraph at lines 1142--1142
-[]|\T1/cmr/m/n/10 M6: In-se-cure
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1142--1142
-[]|\T1/cmr/m/n/10 Access con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1142--1142
-[]|\T1/cmr/m/n/10 Access con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
-[]|\T1/cmr/m/n/10 M7: Client
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
-[]|\T1/cmr/m/n/10 Memory man-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
-[]|\T1/cmr/m/n/10 Memory man-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1146--1146
-[]|\T1/cmr/m/n/10 M7: Client
- []
-
-
-Underfull \hbox (badness 6332) in paragraph at lines 1148--1148
-[]|\T1/cmr/m/n/10 Signature ver-i-
- []
-
-
-Underfull \hbox (badness 6332) in paragraph at lines 1148--1148
-[]|\T1/cmr/m/n/10 Signature ver-i-
- []
-
-
-Underfull \hbox (badness 7685) in paragraph at lines 1152--1152
-[]|\T1/cmr/m/n/10 M9: Se-cu-rity
- []
-
-
-Underfull \hbox (badness 7685) in paragraph at lines 1154--1154
-[]|\T1/cmr/m/n/10 M9: Se-cu-rity
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 1156--1156
-\T1/cmr/m/n/10 ous Func-tion-al-
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 1158--1158
-\T1/cmr/m/n/10 ous Func-tion-al-
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 1158--1158
-[]|\T1/cmr/m/n/10 Test back-door de-tec-
- []
-
-
 Overfull \hbox (20.1706pt too wide) in alignment at lines 1118--1160
  [] [] [] [] [] [] 
  []
 
 [86]
-Underfull \hbox (badness 10000) in paragraph at lines 1169--1169
-[]|\T1/cmr/bx/n/10 Test
- []
-
-
 Overfull \hbox (20.1706pt too wide) in alignment at lines 1166--1171
  [] [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1176
-[]|\T1/cmr/bx/n/10 Test
  []
 
 
@@ -8476,186 +6533,6 @@ Overfull \hbox (20.1706pt too wide) in alignment at lines 1178--1181
 
 Overfull \hbox (20.1706pt too wide) in alignment at lines 1181--1184
  [] [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 1188--1188
-[]|\T1/cmr/m/n/10 Test API au-then-ti-ca-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1188--1188
-[]|\T1/cmr/m/n/10 Authentication
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1188--1188
-[]|\T1/cmr/m/n/10 Authentication
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1190
-[]|\T1/cmr/m/n/10 Authorization
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1190
-[]|\T1/cmr/m/n/10 Authorization
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1194--1194
-[]|\T1/cmr/m/n/10 Test API re-sponse
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1194--1194
-[]|\T1/cmr/m/n/10 Headers prop-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1194--1194
-[]|\T1/cmr/m/n/10 Headers prop-
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 1196--1196
-[]|\T1/cmr/m/n/10 Database Se-cu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1196--1196
-[]|\T1/cmr/m/n/10 Injection pre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1196--1196
-[]|\T1/cmr/m/n/10 Injection pre-
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 1198--1198
-[]|\T1/cmr/m/n/10 Database Se-cu-
- []
-
-
-Underfull \hbox (badness 2435) in paragraph at lines 1198--1198
-[]|\T1/cmr/m/n/10 Test database ac-cess
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1198--1198
-[]|\T1/cmr/m/n/10 Access con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1198--1198
-[]|\T1/cmr/m/n/10 Access con-
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 1200--1200
-[]|\T1/cmr/m/n/10 Database Se-cu-
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 1202--1202
-[]|\T1/cmr/m/n/10 Database Se-cu-
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 1204--1204
-[]|\T1/cmr/m/n/10 Database Se-cu-
- []
-
-
-Underfull \hbox (badness 6078) in paragraph at lines 1204--1204
-[]|\T1/cmr/m/n/10 Test database au-dit
- []
-
-
-Underfull \hbox (badness 5847) in paragraph at lines 1214--1214
-[]|\T1/cmr/m/n/10 Test server re-source
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1218--1218
-[]|\T1/cmr/m/n/10 Passwords
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1218--1218
-[]|\T1/cmr/m/n/10 Passwords
- []
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 1220--1220
-[]|\T1/cmr/m/n/10 Test ses-sion man-age-
- []
-
-
-Underfull \hbox (badness 7047) in paragraph at lines 1222--1222
-[]|\T1/cmr/m/n/10 Test pass-word re-set
- []
-
-
-Underfull \hbox (badness 3758) in paragraph at lines 1222--1222
-[]|\T1/cmr/m/n/10 Reset flow se-
- []
-
-
-Underfull \hbox (badness 3758) in paragraph at lines 1222--1222
-[]|\T1/cmr/m/n/10 Reset flow se-
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 1226--1226
-[]|\T1/cmr/m/n/10 Test data en-cryp-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
-[]|\T1/cmr/m/n/10 Test sen-si-tive data
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1234--1234
-[]|\T1/cmr/m/n/10 Test data re-ten-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1234--1234
-[]|\T1/cmr/m/n/10 Policies en-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1234--1234
-[]|\T1/cmr/m/n/10 Policies en-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
-[]|\T1/cmr/m/n/10 Trail main-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
-[]|\T1/cmr/m/n/10 Trail main-
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 1244--1244
-[]|\T1/cmr/m/n/10 Test mon-i-tor-ing sys-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-[]|\T1/cmr/m/n/10 System mon-i-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-[]|\T1/cmr/m/n/10 System mon-i-
  []
 
 
@@ -8678,21 +6555,33 @@ Chapter 8.
 ]
 
 [92]
-Underfull \hbox (badness 1163) in paragraph at lines 57--58
+Underfull \hbox (badness 1163) in paragraph at lines 58--59
 []\T1/cmr/m/n/12 Node.js Foun-da-tion. (2024). \T1/cmr/m/it/12 Node.js Doc-u-me
 n-ta-tion\T1/cmr/m/n/12 . Re-trieved from []$\T1/cmtt/m/n/12 https : / /
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 66--67
+Underfull \hbox (badness 1629) in paragraph at lines 67--68
 []\T1/cmr/m/n/12 Express.js Team. (2024). \T1/cmr/m/it/12 Ex-press.js Doc-u-men
 -ta-tion\T1/cmr/m/n/12 . Re-trieved from []$\T1/cmtt/m/n/12 https : / /
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 72--73
+Underfull \hbox (badness 1584) in paragraph at lines 73--74
 []\T1/cmr/m/n/12 MongoDB Team. (2024). \T1/cmr/m/it/12 Mon-goose Doc-u-men-ta-t
 ion\T1/cmr/m/n/12 . Re-trieved from []$\T1/cmtt/m/n/12 https : / /
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 83--84
+[]\T1/cmr/m/n/12 OWASP Foun-da-tion. (2023). \T1/cmr/m/it/12 OWASP Top 10 ^^U 2
+021: The Ten Most
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 83--84
+\T1/cmr/m/it/12 Crit-i-cal Web Ap-pli-ca-tion Se-cu-rity Risks\T1/cmr/m/n/12 . 
+Re-trieved from []$\T1/cmtt/m/n/12 https : / / owasp . org /
  []
 
 )
@@ -8704,17 +6593,21 @@ ion\T1/cmr/m/n/12 . Re-trieved from []$\T1/cmtt/m/n/12 https : / /
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D2A503A05AD74F203B953B5547204535;22488.
  ) 
 Here is how much of TeX's memory you used:
- 40731 strings out of 473190
- 883991 string characters out of 5715800
- 1916010 words of memory out of 5000000
- 62482 multiletter control sequences out of 15000+600000
+ 40747 strings out of 473190
+ 884265 string characters out of 5715800
+ 1916371 words of memory out of 5000000
+ 62490 multiletter control sequences out of 15000+600000
  574692 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,117p,1627b,2205s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,10n,117p,1627b,2205s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></us
@@ -8728,10 +6621,10 @@ ive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texliv
 e/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/
 2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/20
 25/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (94 pages, 9512644 bytes).
+Output written on main.pdf (94 pages, 9526535 bytes).
 PDF statistics:
- 2189 PDF objects out of 2487 (max. 8388607)
- 1978 compressed objects within 20 object streams
- 946 named destinations out of 1000 (max. 500000)
+ 2208 PDF objects out of 2487 (max. 8388607)
+ 1997 compressed objects within 20 object streams
+ 954 named destinations out of 1000 (max. 500000)
  1342 words of extra memory for PDF output out of 10000 (max. 10000000)
 

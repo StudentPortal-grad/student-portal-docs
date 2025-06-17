@@ -82,80 +82,80 @@
 \contentsline {subsection}{\numberline {4.7.22}Real-Time Notifications}{43}{subsection.4.7.22}%
 \contentsline {section}{\numberline {4.8}Interface Design}{43}{section.4.8}%
 \contentsline {subsection}{\numberline {4.8.1}Mobile Application Interfaces}{45}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Admin Dashboard Interfaces}{46}{subsection.4.8.2}%
-\contentsline {chapter}{\numberline {5}Implementation Aspects}{47}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Overall System Architecture}{47}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Layered Architecture}{47}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Data Flow}{48}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Architecture Justification}{48}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}Tools and Technologies}{48}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Integration Highlights}{49}{subsection.5.2.1}%
-\contentsline {chapter}{\numberline {6}Implementation}{50}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Introduction}{50}{section.6.1}%
-\contentsline {subsubsection}{System Architecture Highlights}{50}{section*.53}%
-\contentsline {subsection}{\numberline {6.1.1}GitHub Organization and Workflow}{50}{subsection.6.1.1}%
-\contentsline {subsubsection}{Organization Structure}{50}{section*.54}%
-\contentsline {subsubsection}{Development Workflow}{51}{section*.56}%
-\contentsline {section}{\numberline {6.2}Frontend Screens}{51}{section.6.2}%
-\contentsline {subsubsection}{Web Application Screens}{51}{section*.57}%
-\contentsline {subsubsection}{Mobile Application Screens}{52}{section*.59}%
-\contentsline {section}{\numberline {6.3}Project File Structure Overview}{53}{section.6.3}%
-\contentsline {subsubsection}{Backend (Node.js + TypeScript)}{53}{section*.61}%
-\contentsline {subsubsection}{Web Application (Next.js + Tailwind CSS)}{54}{section*.62}%
-\contentsline {subsubsection}{Mobile Application (Flutter + BLoC Pattern)}{54}{section*.63}%
-\contentsline {subsubsection}{AI/ML Services (Python + PyTorch + Flask)}{55}{section*.64}%
-\contentsline {section}{\numberline {6.4}Code Implementation Examples}{56}{section.6.4}%
-\contentsline {subsubsection}{Backend Implementation}{56}{section*.65}%
-\contentsline {paragraph}{User Repository}{56}{section*.66}%
-\contentsline {paragraph}{Authentication Service}{57}{section*.67}%
-\contentsline {paragraph}{Notification Service}{58}{section*.68}%
-\contentsline {subsubsection}{Web Frontend Implementation}{59}{section*.69}%
-\contentsline {paragraph}{Custom Hook Example}{59}{section*.70}%
-\contentsline {paragraph}{Form Component}{60}{section*.71}%
-\contentsline {paragraph}{API Client}{60}{section*.72}%
-\contentsline {subsubsection}{Mobile App Implementation}{61}{section*.73}%
-\contentsline {paragraph}{Login Bloc}{61}{section*.74}%
-\contentsline {paragraph}{Theme Provider}{62}{section*.75}%
-\contentsline {paragraph}{API Service}{62}{section*.76}%
-\contentsline {subsubsection}{AI/ML Implementation}{63}{section*.77}%
-\contentsline {paragraph}{Sentiment Analysis Model}{63}{section*.78}%
-\contentsline {paragraph}{Recommender System}{63}{section*.79}%
-\contentsline {paragraph}{Text Classification Model}{64}{section*.80}%
-\contentsline {chapter}{\numberline {7}Testing Report}{65}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Introduction}{65}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Testing Strategy}{65}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Overall Approach}{66}{subsection.7.2.1}%
-\contentsline {subsubsection}{Automated Testing (70\% of test cases)}{66}{section*.81}%
-\contentsline {subsubsection}{Manual Testing (30\% of test cases)}{66}{section*.82}%
-\contentsline {subsection}{\numberline {7.2.2}Testing Levels}{66}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Prioritized Modules}{67}{subsection.7.2.3}%
-\contentsline {section}{\numberline {7.3}White Box Testing}{68}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Introduction}{68}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Objectives}{68}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Testing Techniques Used}{68}{subsection.7.3.3}%
-\contentsline {subsection}{\numberline {7.3.4}Tools Used}{69}{subsection.7.3.4}%
-\contentsline {subsection}{\numberline {7.3.5}Sample Test Cases}{69}{subsection.7.3.5}%
-\contentsline {subsection}{\numberline {7.3.6}Code Coverage Report}{69}{subsection.7.3.6}%
-\contentsline {subsubsection}{Backend Coverage}{69}{section*.83}%
+\contentsline {subsection}{\numberline {4.8.2}Admin Dashboard Interfaces}{45}{subsection.4.8.2}%
+\contentsline {chapter}{\numberline {5}Implementation Aspects}{46}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Overall System Architecture}{46}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Layered Architecture}{46}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Data Flow}{47}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Architecture Justification}{47}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Tools and Technologies}{47}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Integration Highlights}{48}{subsection.5.2.1}%
+\contentsline {chapter}{\numberline {6}Implementation}{49}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{49}{section.6.1}%
+\contentsline {subsubsection}{System Architecture Highlights}{49}{section*.53}%
+\contentsline {subsection}{\numberline {6.1.1}GitHub Organization and Workflow}{49}{subsection.6.1.1}%
+\contentsline {subsubsection}{Organization Structure}{49}{section*.54}%
+\contentsline {subsubsection}{Development Workflow}{50}{section*.56}%
+\contentsline {section}{\numberline {6.2}Frontend Screens}{50}{section.6.2}%
+\contentsline {subsubsection}{Web Application Screens}{50}{section*.57}%
+\contentsline {subsubsection}{Mobile Application Screens}{51}{section*.59}%
+\contentsline {section}{\numberline {6.3}Project File Structure Overview}{52}{section.6.3}%
+\contentsline {subsubsection}{Backend (Node.js + TypeScript)}{52}{section*.61}%
+\contentsline {subsubsection}{Web Application (Next.js + Tailwind CSS)}{53}{section*.62}%
+\contentsline {subsubsection}{Mobile Application (Flutter + BLoC Pattern)}{53}{section*.63}%
+\contentsline {subsubsection}{AI/ML Services (Python + PyTorch + Flask)}{54}{section*.64}%
+\contentsline {section}{\numberline {6.4}Code Implementation Examples}{55}{section.6.4}%
+\contentsline {subsubsection}{Backend Implementation}{55}{section*.65}%
+\contentsline {paragraph}{User Repository}{55}{section*.66}%
+\contentsline {paragraph}{Authentication Service}{56}{section*.67}%
+\contentsline {paragraph}{Notification Service}{57}{section*.68}%
+\contentsline {subsubsection}{Web Frontend Implementation}{58}{section*.69}%
+\contentsline {paragraph}{Custom Hook Example}{58}{section*.70}%
+\contentsline {paragraph}{Form Component}{59}{section*.71}%
+\contentsline {paragraph}{API Client}{59}{section*.72}%
+\contentsline {subsubsection}{Mobile App Implementation}{60}{section*.73}%
+\contentsline {paragraph}{Login Bloc}{60}{section*.74}%
+\contentsline {paragraph}{Theme Provider}{61}{section*.75}%
+\contentsline {paragraph}{API Service}{61}{section*.76}%
+\contentsline {subsubsection}{AI/ML Implementation}{62}{section*.77}%
+\contentsline {paragraph}{Sentiment Analysis Model}{62}{section*.78}%
+\contentsline {paragraph}{Recommender System}{62}{section*.79}%
+\contentsline {paragraph}{Text Classification Model}{63}{section*.80}%
+\contentsline {chapter}{\numberline {7}Testing Report}{64}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introduction}{64}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Testing Strategy}{64}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Overall Approach}{65}{subsection.7.2.1}%
+\contentsline {subsubsection}{Automated Testing (70\% of test cases)}{65}{section*.81}%
+\contentsline {subsubsection}{Manual Testing (30\% of test cases)}{65}{section*.82}%
+\contentsline {subsection}{\numberline {7.2.2}Testing Levels}{65}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Prioritized Modules}{66}{subsection.7.2.3}%
+\contentsline {section}{\numberline {7.3}White Box Testing}{67}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Introduction}{67}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Objectives}{67}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Testing Techniques Used}{67}{subsection.7.3.3}%
+\contentsline {subsection}{\numberline {7.3.4}Tools Used}{68}{subsection.7.3.4}%
+\contentsline {subsection}{\numberline {7.3.5}Sample Test Cases}{68}{subsection.7.3.5}%
+\contentsline {subsection}{\numberline {7.3.6}Code Coverage Report}{70}{subsection.7.3.6}%
+\contentsline {subsubsection}{Backend Coverage}{70}{section*.83}%
 \contentsline {subsubsection}{Frontend Coverage}{70}{section*.84}%
 \contentsline {subsubsection}{Mobile App Coverage}{70}{section*.85}%
 \contentsline {subsubsection}{AI Module Coverage}{70}{section*.86}%
-\contentsline {subsection}{\numberline {7.3.7}Issues Identified and Fixes}{70}{subsection.7.3.7}%
-\contentsline {subsubsection}{Backend Issues}{70}{section*.87}%
-\contentsline {subsubsection}{Frontend Issues}{70}{section*.88}%
-\contentsline {subsubsection}{Mobile Issues}{70}{section*.89}%
+\contentsline {subsection}{\numberline {7.3.7}Issues Identified and Fixes}{71}{subsection.7.3.7}%
+\contentsline {subsubsection}{Backend Issues}{71}{section*.87}%
+\contentsline {subsubsection}{Frontend Issues}{71}{section*.88}%
+\contentsline {subsubsection}{Mobile Issues}{71}{section*.89}%
 \contentsline {subsubsection}{AI Module Issues}{71}{section*.90}%
 \contentsline {section}{\numberline {7.4}Black Box Testing}{71}{section.7.4}%
 \contentsline {subsection}{\numberline {7.4.1}Introduction}{71}{subsection.7.4.1}%
 \contentsline {subsection}{\numberline {7.4.2}Objectives}{71}{subsection.7.4.2}%
-\contentsline {subsection}{\numberline {7.4.3}Testing Techniques Used}{71}{subsection.7.4.3}%
+\contentsline {subsection}{\numberline {7.4.3}Testing Techniques Used}{72}{subsection.7.4.3}%
 \contentsline {subsection}{\numberline {7.4.4}Tools Used}{72}{subsection.7.4.4}%
-\contentsline {subsection}{\numberline {7.4.5}Sample Test Cases}{72}{subsection.7.4.5}%
+\contentsline {subsection}{\numberline {7.4.5}Sample Test Cases}{73}{subsection.7.4.5}%
 \contentsline {subsection}{\numberline {7.4.6}Additional Test Cases}{74}{subsection.7.4.6}%
 \contentsline {section}{\numberline {7.5}Other Types of Testing Conducted}{75}{section.7.5}%
 \contentsline {subsection}{\numberline {7.5.1}Unit Testing}{75}{subsection.7.5.1}%
 \contentsline {subsection}{\numberline {7.5.2}Integration Testing}{75}{subsection.7.5.2}%
-\contentsline {subsection}{\numberline {7.5.3}System Testing}{75}{subsection.7.5.3}%
+\contentsline {subsection}{\numberline {7.5.3}System Testing}{76}{subsection.7.5.3}%
 \contentsline {subsection}{\numberline {7.5.4}Acceptance Testing}{76}{subsection.7.5.4}%
 \contentsline {subsection}{\numberline {7.5.5}Functional Areas Covered}{76}{subsection.7.5.5}%
 \contentsline {subsection}{\numberline {7.5.6}Issues Identified and Fixes}{77}{subsection.7.5.6}%
@@ -164,24 +164,24 @@
 \contentsline {subsubsection}{Performance}{77}{section*.93}%
 \contentsline {section}{\numberline {7.6}Performance Testing}{77}{section.7.6}%
 \contentsline {subsection}{\numberline {7.6.1}Tools Used}{77}{subsection.7.6.1}%
-\contentsline {subsection}{\numberline {7.6.2}Results}{77}{subsection.7.6.2}%
-\contentsline {subsubsection}{Web Application}{77}{section*.94}%
-\contentsline {subsubsection}{Mobile Application}{77}{section*.95}%
+\contentsline {subsection}{\numberline {7.6.2}Results}{78}{subsection.7.6.2}%
+\contentsline {subsubsection}{Web Application}{78}{section*.94}%
+\contentsline {subsubsection}{Mobile Application}{78}{section*.95}%
 \contentsline {subsubsection}{Backend API}{78}{section*.96}%
 \contentsline {subsubsection}{AI Module}{78}{section*.97}%
 \contentsline {section}{\numberline {7.7}Security Testing}{78}{section.7.7}%
 \contentsline {subsection}{\numberline {7.7.1}Tools Used}{78}{subsection.7.7.1}%
 \contentsline {subsection}{\numberline {7.7.2}Findings}{78}{subsection.7.7.2}%
 \contentsline {subsubsection}{Authentication}{78}{section*.98}%
-\contentsline {subsubsection}{Data Protection}{78}{section*.99}%
-\contentsline {subsubsection}{API Security}{78}{section*.100}%
+\contentsline {subsubsection}{Data Protection}{79}{section*.99}%
+\contentsline {subsubsection}{API Security}{79}{section*.100}%
 \contentsline {subsection}{\numberline {7.7.3}Authentication Security}{79}{subsection.7.7.3}%
 \contentsline {subsubsection}{Password Policies}{79}{section*.101}%
 \contentsline {subsubsection}{Session Management}{79}{section*.102}%
 \contentsline {subsubsection}{Two-Factor Authentication}{79}{section*.103}%
 \contentsline {subsection}{\numberline {7.7.4}Data Security}{79}{subsection.7.7.4}%
 \contentsline {subsubsection}{Input Validation}{79}{section*.104}%
-\contentsline {subsubsection}{Data Encryption}{79}{section*.105}%
+\contentsline {subsubsection}{Data Encryption}{80}{section*.105}%
 \contentsline {subsubsection}{Access Control}{80}{section*.106}%
 \contentsline {subsection}{\numberline {7.7.5}API Security}{80}{subsection.7.7.5}%
 \contentsline {subsubsection}{Authentication}{80}{section*.107}%
