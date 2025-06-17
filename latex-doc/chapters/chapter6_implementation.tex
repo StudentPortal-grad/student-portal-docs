@@ -1,10 +1,10 @@
 \lstset{style=mystyle}
 
-\section{Implementation}
-\label{sec:implementation}
+\chapter{Implementation}
+\label{chap:coding}
 
-\subsection{Introduction}
-\label{subsec:introduction}
+\section{Introduction}
+\label{sec:introduction}
 
 This chapter provides a detailed walkthrough of the implementation process for the Student Portal project. The platform is structured into four major components: the backend server, web application, mobile application, and AI/ML services. Each component is managed collaboratively via our GitHub organization using issue tracking, pull requests, and continuous integration.
 
@@ -50,7 +50,7 @@ The GitHub organization is organized into several key repositories:
 
 Our development process is built on efficient collaboration and high-quality standards. We maintain a structured Git workflow with clear branching strategies and automated pipelines. Discord meetings keep the team aligned, while our comprehensive documentation ensures smooth knowledge sharing. The combination of agile practices and automated testing allows us to deliver features while maintaining code quality.
 
-\subsection{Frontend Screens}
+\section{Frontend Screens}
 \label{subsec:frontend_screens}
 
 \subsubsection{Web Application Screens}
@@ -71,28 +71,28 @@ Our development process is built on efficient collaboration and high-quality sta
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
-        % \includegraphics[width=\textwidth]{images/web-dashboard.png}
+        \includegraphics[width=\textwidth]{images/front_end_screens/dashboard-overview.png}
         \caption{Student Dashboard}
         \label{fig:web-dashboard}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
-        % \includegraphics[width=\textwidth]{images/web-events.png}
+        \includegraphics[width=\textwidth]{images/front_end_screens/dashboard-events-managment.png}
         \caption{Event Management}
         \label{fig:web-events}
     \end{subfigure}
     \vskip\baselineskip
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
-        % \includegraphics[width=\textwidth]{images/web-community.png}
+        \includegraphics[width=\textwidth]{images/front_end_screens/dashboard-community-managment.png}
         \caption{Community Hub}
         \label{fig:web-community}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
-        % \includegraphics[width=\textwidth]{images/web-ai-assistant.png}
+        \includegraphics[width=\textwidth]{images/front_end_screens/dashboard-ai-training.png}
         \caption{AI Learning Assistant}
         \label{fig:web-ai}
     \end{subfigure}
@@ -118,28 +118,28 @@ Our development process is built on efficient collaboration and high-quality sta
     \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \centering
-        % \includegraphics[width=\textwidth,height=0.3\textheight,keepaspectratio]{images/mobile-home.png}
+         \includegraphics[width=\textwidth,height=0.3\textheight,keepaspectratio]{images/front_end_screens/mobile-home.png}
         \caption{Home Feed}
         \label{fig:mobile-home}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.22\textwidth}
         \centering
-        % \includegraphics[width=\textwidth,height=0.3\textheight,keepaspectratio]{images/mobile-events.png}
+        \includegraphics[width=\textwidth,height=0.3\textheight,keepaspectratio]{images/front_end_screens/mobile-events.png}
         \caption{Event Explorer}
         \label{fig:mobile-events}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.22\textwidth}
         \centering
-        % \includegraphics[width=\textwidth,height=0.3\textheight,keepaspectratio]{images/mobile-search.png}
+        \includegraphics[width=\textwidth,height=0.3\textheight,keepaspectratio]{images/front_end_screens/mobile-searching.png}
         \caption{Smart Search}
         \label{fig:mobile-search}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.22\textwidth}
         \centering
-        % \includegraphics[width=\textwidth,height=0.3\textheight,keepaspectratio]{images/mobile-messaging.png}
+        \includegraphics[width=\textwidth,height=0.3\textheight,keepaspectratio]{images/front_end_screens/mobile-chats.png}
         \caption{Messaging Center}
         \label{fig:mobile-messaging}
     \end{subfigure}
@@ -149,7 +149,7 @@ Our development process is built on efficient collaboration and high-quality sta
 
 Each screen is designed with a focus on user experience, accessibility, and performance. The interfaces follow material design principles and maintain consistency across platforms while adapting to the unique capabilities of each device type.
 
-\subsection{Project File Structure Overview}
+\section{Project File Structure Overview}
 \label{subsec:file_structure}
 
 Below is the structured layout of each major component of the Student Portal project, showing the first two levels of the directory structure:
@@ -276,7 +276,7 @@ The AI system is split into \textbf{chatbot} and \textbf{recommendation} modules
 \end{itemize}
 \end{tcolorbox}
 
-\subsection{Code Implementation Examples}
+\section{Code Implementation Examples}
 \label{subsec:code_examples}
 
 \subsubsection{Backend Implementation}
