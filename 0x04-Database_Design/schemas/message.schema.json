@@ -1,0 +1,24 @@
+{
+    "title": "Message",
+    "type": "object",
+    "properties": {
+      "_id": { "type": "string", "description": "Unique identifier for the message" },
+      "senderId": { "type": "string", "description": "Reference to the user who sent the message" },
+      "content": { "type": "string", "description": "Content of the message" },
+      "attachments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "type": { "type": "string", "enum": ["document", "file", "poll", "thread"], "description": "Type of the attachment" },
+            "resource": { "type": "string", "description": "Link to the resource" },
+            "thread": { "type": "string", "description": "Reference to a thread conversation" }
+          }
+        },
+        "description": "Array of attachment objects"
+      },
+      "status": { "type": "string", "enum": ["sent", "delivered", "read"], "description": "Status of the message" },
+      "createdAt": { "type": "string", "format": "date-time", "description": "Timestamp when the message was created" }
+    },
+    "required": ["senderId", "content", "status"]
+  }

@@ -1,0 +1,14 @@
+{
+    "title": "Notification",
+    "type": "object",
+    "properties": {
+      "_id": { "type": "string", "description": "Unique identifier for the notification" },
+      "user_id": { "type": "string", "description": "Reference to the user who receives the notification" },
+      "type": { "type": "string", "description": "Type of the notification" },
+      "content": { "type": "string", "description": "Content of the notification" },
+      "status": { "type": "string", "enum": ["read", "unread"], "description": "Status of the notification" },
+      "timestamp": { "type": "string", "format": "date-time", "description": "Timestamp of the notification" },
+      "metadata": { "type": "object", "description": "Additional metadata for the notification" }
+    },
+    "required": ["user_id", "type", "content", "status", "timestamp"]
+  }

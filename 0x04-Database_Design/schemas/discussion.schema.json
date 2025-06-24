@@ -1,0 +1,50 @@
+{
+    "title": "Discussion",
+    "type": "object",
+    "properties": {
+      "_id": { "type": "string", "description": "Unique identifier for the discussion" },
+      "title": { "type": "string", "description": "Title of the discussion" },
+      "content": { "type": "string", "description": "Content of the discussion" },
+      "creator": { "type": "string", "description": "Reference to the user who created the discussion" },
+      "attachments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "type": { "type": "string", "enum": ["document", "file", "poll"], "description": "Type of the attachment" },
+            "resource": { "type": "string", "description": "Link to the resource" }
+          }
+        },
+        "description": "Array of attachment objects"
+      },
+      "replies": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "string", "description": "Unique identifier for the reply" },
+            "content": { "type": "string", "description": "Content of the reply" },
+            "creator": { "type": "string", "description": "Reference to the user who created the reply" },
+            "createdAt": { "type": "string", "format": "date-time", "description": "Timestamp when the reply was created" },
+            "attachments": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "type": { "type": "string", "enum": ["document", "file"], "description": "Type of the attachment" },
+                  "resource": { "type": "string", "description": "Link to the resource" }
+                }
+              },
+              "description": "Array of attachment objects"
+            }
+          }
+        },
+        "description": "Array of reply objects"
+      },
+      "communityId": { "type": "string", "description": "Reference to the community where the discussion belongs" },
+      "status": { "type": "string", "enum": ["open", "closed", "archived"], "description": "Status of the discussion" },
+      "createdAt": { "type": "string", "format": "date-time", "description": "Timestamp when the discussion was created" },
+      "updatedAt": { "type": "string", "format": "date-time", "description": "Timestamp when the discussion was last updated" }
+    },
+    "required": ["title", "content", "creator", "communityId", "status"]
+  }

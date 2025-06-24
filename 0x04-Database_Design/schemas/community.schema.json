@@ -1,0 +1,19 @@
+{
+    "title": "Community",
+    "type": "object",
+    "properties": {
+      "_id": { "type": "string", "description": "Unique identifier for the community" },
+      "name": { "type": "string", "description": "Name of the community" },
+      "description": { "type": "string", "description": "Description of the community" },
+      "type": { "type": "string", "enum": ["Official", "Community"], "description": "Type of the community" },
+      "icon": { "type": "string", "description": "Optional icon for the community" },
+      "owner": { "type": "string", "description": "Reference to the user who owns the community" },
+      "members": { "type": "array", "items": { "type": "object" }, "description": "Array of member objects" },
+      "roles": { "type": "array", "items": { "type": "string" }, "description": "Array of role IDs in the community" },
+      "discussions": { "type": "array", "items": { "type": "string" }, "description": "Array of discussion IDs in the community" },
+      "inviteLink": { "type": "string", "description": "Optional invite link for the community" },
+      "createdAt": { "type": "string", "format": "date-time", "description": "Timestamp when the community was created" },
+      "updatedAt": { "type": "string", "format": "date-time", "description": "Timestamp when the community was last updated" }
+    },
+    "required": ["name", "description", "type", "owner"]
+  }

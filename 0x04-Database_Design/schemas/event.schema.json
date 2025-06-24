@@ -1,0 +1,17 @@
+{
+    "title": "Event",
+    "type": "object",
+    "properties": {
+      "_id": { "type": "string", "description": "Unique identifier for the event" },
+      "title": { "type": "string", "description": "Title of the event" },
+      "description": { "type": "string", "description": "Description of the event" },
+      "date_time": { "type": "string", "format": "date-time", "description": "Date and time of the event" },
+      "location": { "type": "string", "description": "Location of the event" },
+      "capacity": { "type": "integer", "description": "Maximum capacity of the event" },
+      "creator": { "type": "string", "description": "Reference to the user who created the event" },
+      "attendees": { "type": "array", "items": { "type": "string" }, "description": "Array of user IDs attending the event" },
+      "recommendations": { "type": "array", "items": { "type": "string" }, "description": "Array of recommended event IDs" },
+      "status": { "type": "string", "enum": ["upcoming", "ongoing", "completed"], "description": "Current status of the event" }
+    },
+    "required": ["title", "description", "date_time", "creator", "status"]
+  }

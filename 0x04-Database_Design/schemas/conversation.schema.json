@@ -1,0 +1,17 @@
+{
+    "title": "Conversation",
+    "type": "object",
+    "properties": {
+      "_id": { "type": "string", "description": "Unique identifier for the conversation" },
+      "type": { "type": "string", "enum": ["DM", "GroupDM"], "description": "Type of the conversation" },
+      "participants": { "type": "array", "items": { "type": "string" }, "description": "Array of user IDs in the conversation" },
+      "name": { "type": "string", "description": "Optional name for GroupDMs" },
+      "createdBy": { "type": "string", "description": "Reference to the user who created the conversation" },
+      "inviteLink": { "type": "string", "description": "Optional invite link for GroupDMs" },
+      "messages": { "type": "array", "items": { "type": "string" }, "description": "Array of message IDs in the conversation" },
+      "status": { "type": "string", "enum": ["active", "archived"], "description": "Status of the conversation" },
+      "createdAt": { "type": "string", "format": "date-time", "description": "Timestamp when the conversation was created" },
+      "updatedAt": { "type": "string", "format": "date-time", "description": "Timestamp when the conversation was last updated" }
+    },
+    "required": ["type", "participants", "createdBy", "status"]
+  }

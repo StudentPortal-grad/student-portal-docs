@@ -1,0 +1,38 @@
+{
+    "title": "User",
+    "type": "object",
+    "properties": {
+      "_id": { "type": "string", "description": "Unique identifier for the user" },
+      "name": { "type": "string", "description": "Full name of the user" },
+      "email": { "type": "string", "format": "email", "description": "Unique email address of the user" },
+      "password": { "type": "string", "description": "Hashed password of the user" },
+      "role": { "type": "string", "enum": ["Student", "Faculty", "Admin"], "description": "Global role of the user" },
+      "profile": { "type": "object", "description": "Embedded profile information (bio, interests, profile_picture, dob, contact)" },
+      "addresses": { "type": "array", "items": { "type": "object" }, "description": "Array of embedded address objects with street, city, country" },
+      "friends": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "friend": { "type": "string", "description": "Reference to another user" },
+            "dm": { "type": "array", "items": { "type": "string" }, "description": "Array of message IDs in the DM conversation" },
+            "status": { "type": "string", "enum": ["accepted", "pending"], "description": "Status of the friendship" },
+            "addedAt": { "type": "string", "format": "date-time", "description": "Timestamp when the friend was added" }
+          }
+        },
+        "description": "Array of friend objects"
+      },
+      "level": { "type": "integer", "enum": [1, 2, 3, 4, 5], "description": "Academic level of the user" },
+      "gpa": { "type": "number", "description": "Grade point average of the user" },
+      "universityEmail": { "type": "string", "format": "email", "description": "University email address of the user" },
+      "mfa_settings": { "type": "object", "description": "Multi-factor authentication settings" },
+      "dashboards": { "type": "object", "description": "Embedded dashboard information" },
+      "confirmEmail": { "type": "boolean", "description": "Whether the email has been confirmed" },
+      "otp": { "type": "object", "description": "One-time password details (code and expiresAt)" },
+      "roles": { "type": "array", "items": { "type": "object" }, "description": "Array of community-specific roles" },
+      "status": { "type": "string", "enum": ["online", "offline"], "description": "Current status of the user" },
+      "createdAt": { "type": "string", "format": "date-time", "description": "Timestamp when the user was created" },
+      "updatedAt": { "type": "string", "format": "date-time", "description": "Timestamp when the user was last updated" }
+    },
+    "required": ["name", "email", "password", "role", "status"]
+  }

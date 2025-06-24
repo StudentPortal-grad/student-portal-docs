@@ -1,0 +1,28 @@
+{
+    "title": "Resource",
+    "type": "object",
+    "properties": {
+      "_id": { "type": "string", "description": "Unique identifier for the resource" },
+      "title": { "type": "string", "description": "Title of the resource" },
+      "description": { "type": "string", "description": "Description of the resource" },
+      "uploaded_by": { "type": "string", "description": "Reference to the user who uploaded the resource" },
+      "file_url": { "type": "string", "description": "URL to the uploaded file" },
+      "tags": { "type": "array", "items": { "type": "string" }, "description": "Optional tags for the resource" },
+      "interactions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "userId": { "type": "string", "description": "Reference to the user who interacted with the resource" },
+            "type": { "type": "string", "enum": ["like", "comment", "download"], "description": "Type of interaction" },
+            "comment": { "type": "string", "description": "Comment text (if applicable)" },
+            "timestamp": { "type": "string", "format": "date-time", "description": "Timestamp of the interaction" }
+          }
+        },
+        "description": "Array of interaction objects"
+      },
+      "created_at": { "type": "string", "format": "date-time", "description": "Timestamp when the resource was created" },
+      "updated_at": { "type": "string", "format": "date-time", "description": "Timestamp when the resource was last updated" }
+    },
+    "required": ["title", "uploaded_by", "file_url", "created_at"]
+  }
