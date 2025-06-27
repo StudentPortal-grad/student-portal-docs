@@ -27,7 +27,7 @@ The **Student Portal** is an integrated academic platform designed to enhance st
 - Foster **collaborative learning** through discussions and shared knowledge
 
 **[View the Project Presentation](https://studentportal-grad.github.io/student-portal-docs/presentation.html)**  
-**[View Full Technical Documentation (LaTeX PDF)](https://github.com/StudentPortal-grad/student-portal-docs/blob/main/Student_Portal_Documentation.pdf)**
+**[View Full Technical Documentation (LaTeX PDF)](https://github.com/StudentPortal-grad/student-portal-docs/blob/main/latex-doc/main.pdf)**
 
 ---
 
