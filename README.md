@@ -26,6 +26,9 @@ The **Student Portal** is an integrated academic platform designed to enhance st
 - Receive **real-time university updates and notifications**
 - Foster **collaborative learning** through discussions and shared knowledge
 
+**[View the Project Presentation](https://studentportal-grad.github.io/student-portal-docs/presentation.html)**  
+**[View Full Technical Documentation (LaTeX PDF)](https://github.com/StudentPortal-grad/student-portal-docs/blob/main/Student_Portal_Documentation.pdf)**
+
 ---
 
 ## Features
@@ -34,8 +37,6 @@ The **Student Portal** is an integrated academic platform designed to enhance st
 - **Mentorship & Collaboration** - Enables students to connect with peers, faculty, and alumni for mentorship and academic discussions.
 - **Resource Sharing** - Allows users to upload, discover, and access study materials in a structured knowledge-sharing environment.
 - **Centralized Dashboard** - Provides real-time notifications for college announcements, student affairs updates, and academic schedules.
-
-**[View the Project Presentation](https://studentportal-grad.github.io/student-portal-docs/presentation.html)**
 
 ---
 
